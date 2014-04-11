@@ -1,0 +1,7 @@
+#!/bin/bash
+ps -o pid,comm|sed -e '/tail/!d' -e 's/^ *\([0-9]\+\) .*$/\1/'|xargs -r kill
+
+if [ -z "$1" ];then
+	tail -F /var/log/stumble/{debug,error}.log |grep $(whoami) &
+	tail -F /var/log/apache2/other_vhosts_access.log |grep $(whoami) &
+fi

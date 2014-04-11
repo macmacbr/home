@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/mcarvalho/IdeaProjects/emailqueue/build/generated/com/strongmail/services/_2009/_03'
+let g:netrw_dirhist_2='/Users/mcarvalho/IdeaProjects/emailqueue/build/generated/com/strongmail/services/_2009/_03/_02'
+let g:netrw_dirhist_3='/Users/mcarvalho/IdeaProjects/emailqueue/build/generated/com/strongmail/services/_2009/_03/_02/schema'
+let g:netrw_dirhist_4='/Users/mcarvalho/IdeaProjects/emailqueue/build/generated/com/strongmail/services/_2009/_03/_02'

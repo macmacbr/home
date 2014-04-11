@@ -1,0 +1,427 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Scala Training - Stairway to Scala Workshop</title>
+<link rel="stylesheet" type="text/css" href="/artima.css" />
+<link rel="shortcut icon" href="/favicon.ico" />
+</head>
+<body>
+<div class="dialog" style="margin-left: 10%; margin-right: 10%"><table width="100%">
+<tr valign="bottom">
+<td align="left"><a href="http://www.artima.com/index.jsp"><img src="/images/adl_dev.gif" alt="The Artima Developer Community" style="border-width: 0" width="211" height="31" /></a></td>
+</tr>
+</table>
+<hr style="width: 100%; margin: 0; padding: 0" /><br />
+
+<table width="85%" cellpadding="20">
+<tr valign="top">
+<td width="100%">
+
+<table>
+<tr valign="top">
+<td>
+<!--<img src="../images/ScalaSeminarSplash2.jpg">-->
+<img src="../images/escalatorToScala.png">
+</td>
+<td>
+<div style="padding-left: 10px">
+<span style="font-size: 1.8em"><strong><em>Stairway to Scala</em> Workshop</strong></span>
+<br />
+<span style="font-size: 1.2em">A hands-on, intensive Scala training course<br />taught by Bill Venners and Dick Wall</span>
+
+<br />
+
+
+  <p id="listofworkshops">
+    We don't currently have any workshops scheduled.  We will soon, so
+    please check back!
+  </p>
+
+
+
+</div>
+</td>
+</tr>
+</table>
+
+<p>
+This five-day workshop has two parts:
+</p>
+<ul>
+<li>Part I: Applied Fundamentals: Mon, Tue, Wed</li>
+<li>Part II: Advanced Concepts: Thu, Fri</li>
+</ul>
+<p>
+You can sign up to attend the first three days (Part I), the last two days (Part II), or all five days.
+</p>
+
+<h2>Part I: Applied Fundamentals</h2>
+
+<p>
+If you&#39;ve decided to use Scala, and want to speed up the time it takes
+to get proficient and productive, then the <em>Stairway to Scala Workshop: Applied Fundamentals</em> is for you.
+<strong>This course will save you time in your transition to Scala.</strong>
+We will take you step-by-step through the most important aspects of
+the Scala language and API, as well as the important ideas behind them. At each step, you&#39;ll gain a deeper understanding
+of Scala&#39;s design and how Scala can help you accomplish a wide range of practical programming
+tasks, from writing small scripts to building large systems. After taking this course you&#39;ll be able
+to code in Scala with confidence, and enjoy the productivity boost the Scala promises to those who master it.
+</p>
+
+<blockquote>
+<strong>
+<table>
+<tr>
+<td>
+This course gave me a high level of understanding that will greatly
+improve the quality of my work. I expect that this week&#39;s course will
+save many weeks of work over the long term.
+</td>
+</tr>
+<tr>
+<td align="right">
+- Keith Bennett, FGM, Inc.
+</td>
+</tr>
+</table>
+</strong>
+</blockquote>
+
+<p>
+In this intensive three-day course, you&#39;ll get an essential foundation in the language and hands-on experience using Scala to solve
+practical programming problems. You&#39;ll leave with new insights into how you
+can apply Scala in your own everyday work, and the proficiency to do it.
+</p>
+
+<h2>Part II: Advanced Concepts</h2>
+
+<p>
+If you already have some Scala programming experience, and want to gain a deeper understanding of
+the more advanced features of the language, then the <em>Stairway to Scala Workshop: Advanced Concepts</em> is for you.
+In this intensive two-day advanced concepts course, <strong>you'll learn
+techniques that will enable you access the full potential of the powerful Scala language.</strong>
+This course will arm you with proficiency in advanced subjects such as Scala's type system, implicit conversions, abstract members, and extractors,
+as well as insights gleaned from coverage of best practices, design patterns, and library/DSL design techniques. You'll leave
+with a greater expertise in the Scala language and libraries, and how to apply Scala's
+advanced features to practical programming problems.
+</p>
+
+<h1>Who presents the workshop?</h1>
+
+<p>
+This workshop is co-taught by Bill Venners and Dick Wall, thought leaders in the Java community and Scala pioneers. Bill is
+president of Artima, Inc., and coauthor with Martin Odersky and
+Lex Spoon, of <em>Programming in Scala</em>. He is also the lead developer of the open source
+ScalaTest testing framework. He is an experienced teacher, having taught in the past many workshops
+on Java, design, and Jini. Dick created and cohosts the popular Java Posse podcast. He founded and leads the
+Bay Area Scala Enthusiasts user group and has been a full-time Scala practitioner for over three years. As a developer advocate at Google,
+he was trained to teach and interface with developers. When he&#39;s not teaching Scala, Dick programs in Scala full time as an engineer at Locus Development.
+Bill and Dick have been teaching the Stairway to Scala course together for the past two years, holding several public workshops and also giving
+it via private workshops in-house at companies.
+</p>
+
+<blockquote>
+<strong>
+<table>
+<tr>
+<td>
+It&#39;s great to learn a powerful, complex, rich language from people who really grasp the very powerful and exotic features of the language DEEPLY.
+</td>
+</tr>
+<tr>
+<td align="right">
+- Carl Watts
+</td>
+</tr>
+</table>
+</strong>
+</blockquote>
+
+<h1>Who should attend?</h1>
+
+<p>
+Part I of this workshop, <em>Applied Fundamentals</em> is designed to help experienced programmers 
+learn Scala. It is not a beginning course in programming, but it doesn&#39;t assume any background
+in <em>functional</em> programming. So long as you are familiar with at least one of the (more or less) mainstream
+object-oriented languages (such as Java, C#, C++, Ruby, Python, or Smalltalk), this course is for you.
+Prior experience with Java or C# is a plus, but not a pre-requisite.
+</p>
+
+<p>
+Part II of this workshop, <em>Advanced Concepts</em> is designed to help people who have some experience with Scala
+become more proficient in its use. An understanding of
+Scala fundamentals, either from prior experience programming in Scala or by taking Part I of this course, is a pre-requisite.
+</p>
+
+<h1>What will you learn?</h1>
+
+<table align="right">
+<tr><td>
+<img src="/images/booleRoom.jpg">
+</tr></td>
+</table>
+
+<pre>
+<strong>APPLIED FUNDAMENTALS (three-day course)</strong>
+
+<strong>Day One</strong>
+
+1. First steps in Scala <!--(chapters 2 and 3)-->
+2. Next steps in Scala
+3. Classes, objects, and types <!-- chapters 4 and 5, plus just enough unit testing to get the doing koans -->
+
+<em>Lunch</em>
+
+4. Built-in control structures
+5. Functions and closures
+6. Control abstraction
+
+<strong>Day Two</strong>
+
+7. Composition and inheritance <!-- may be a bit long, but first thing in the day -->
+8. Scala&#39;s hierarchy and universal methods <!-- includes equality stuff -->
+9. Traits
+
+<em>Lunch</em>
+
+10. Packages and imports
+11. Assertions and unit testing <!-- ScalaTest, Specs, ScalaCheck -->
+12. Case classes and pattern matching
+
+<strong>Day Three</strong>
+
+13. Partial functions and actors
+14. Working with lists
+15. Collections
+
+<em>Lunch</em>
+
+16. Build tools, web apps, and interfacing with Java
+17. Project
+
+<strong>ADVANCED CONCEPTS (two-day course)</strong>
+
+<strong>Day Four</strong>
+
+1. Stateful objects
+2. Type parameterization, Part I
+3. Type parameterization, Part II
+
+<em>Lunch</em>
+
+4. Abstract members, part I
+5. Implicit conversions and parameters
+6. Working with XML
+
+<strong>Day Five</strong>
+
+7. Modular programming and self types
+8. Extractors
+9. Idiomatic Scala coding style
+
+<em>Lunch</em>
+
+10. Designing DSLs
+11. Design patterns in Scala
+12. Tail Recursion, Delimited Continuations, and Distributed Continuations
+</pre>
+
+<h1>How do I get there (and where do I stay)?</h1>
+
+<p>
+Select a specific workshop from the list <a href="#listofworkshops">above</a> to see information about the location of the venue, transportation, and hotels.
+</p>
+
+<h1>When does class start (and what should I bring)?</h1>
+
+<p>
+The workshop runs 9am to 5pm every day. Breakfast is available starting at 8:30AM, and lunch will be provided as well.
+Other than a passion for learning, the only other thing you may want to bring is a laptop. You&#39;ll be sent more detailed
+instructions about a week before the workshop.
+</p>
+
+<h1>What people are saying</h1>
+
+<p>
+Here&#39;s what students who attended previous Stairway to Scala training courses have to say about the experience:
+</p>
+
+<p>
+"Stairway to Scala is an excellent way to kick-start your Scala skills. It provides a 
+comprehensive, high-level overview of the language, as well as a set of exercises that 
+are informative and just challenging enough to keep you entertained. Bill and Dick do a 
+great job presenting difficult concepts in an easy-to-understand way. You will not be 
+disappointed." Alex Furman, Founder, Locus Development  
+</p>
+ 
+<p>
+"The Stairway to Scala Workshop was extremely valuable in cementing the 
+fundamentals of Scala. By having leading Scala practitioners explain the functional-OO 
+paradigm, the reasons behind the language&#39;s design decisions, and Scala best practices, 
+my ability to learn Scala from other sources has greatly improved." Carter Roughton  
+</p>
+ 
+<p>
+"The Stairway to Scala course was great fun other than being very useful and 
+enlightening in the most difficult parts of Scala. Advanced, but I would also recommend 
+it for students that not only do not know Scala, but that also do not know about 
+functional/dynamic languages either." Massimo, Java Developer 
+</p>
+ 
+<p>
+"The Stairway to Scala workshop was terrific and a great way to start learning about 
+Scala. It opens up a new functional way of thinking for an imperative Java guy. Bill and 
+Dick were very helpful in answering questions." Dinesh Narayanan 
+</p>
+ 
+<!--
+<p>
+"It&#39;s great to learn a powerful, complex, rich language from people who really grasp the 
+very powerful and exotic features of the language DEEPLY." Carl Watts  
+</p>
+-->
+ 
+<p>
+The Stairway to Scala Workshop was comprehensive and technically complete. My goal 
+was to walk away with a working knowledge of Scala, and I was not disappointed." Jim 
+Bedenbaugh, President & CEO PLT Software  
+</p>
+ 
+<p>
+"If you were to pick a language to learn, pick Scala and attend Bill and Dick&#39;s Stairway 
+to Scala course. The course content is well orchestrated, interactive with plenty of 
+hands-on lab sessions and well thought out by knowledgeable instructors at the 
+forefront of Scala development." Chetan Conikee, Intuit, Inc. 
+</p>
+ 
+<p>
+"Phenomenal class taught by an entertaining duo of Scala mavens. Their enthusiasm for 
+the language and teaching was infectious." Corey Klaasmeyer 
+</p>
+ 
+<!--
+<p>
+"This course gave me a high level of understanding that will greatly improve the quality 
+of my work. I expect that this week&#39;s course will save many weeks of work over the long 
+term." Keith Bennett, FGM, Inc.
+</p>
+-->
+
+<p>
+"It was wonderful to have access to two people who are so knowledgeble and so very willing to engage." Anonymous
+</p>
+
+<p>
+"The best use of money for training I have seen! An amazing three days! Great interplay
+between Bill and Dick&#8212;one presenting the information (with slides) the other
+demoing Scala in real time, trying different things in a Scala shell projected above
+the slides. The workshop was paced very well and covered the PinS book separated by related
+exercises. The hands-on tools just worked (IntelliJ, Maven). The way ScalaTest was customized to stop
+ at the first error was awesome in the exercises!" Darlene Wallach
+</p>
+
+<p>
+"I came to the workshop hoping to be propelled forward in Scala. I was not disappointed.
+I had already bought into the fact that Scala is an extremely powerful language. But,
+honestly, I had no idea how powerful it really is until now. I was blown away time and time
+again. Bill and Dick are excellent instructors who really know their craft. I&#39;m now ready
+to surf the impending wave!" Bruce Ferguson, President, Epoch 6 Trading Solutions
+</p>
+
+<p>
+"The workshop was excellent. The instructors are obviously very technically knowledgeable, but they
+are also enthusiastic and capable teachers. They cover a lot of material, but do it at the right
+zoom-level so that it sinks in even for a Scala novice. The exercises are perfectly sized
+and tailored to learning just language features and not general programming. I would recommend
+this class without reservation. I learned a lot and had fun doing it." Mehul Patel, Head Developer, NextEra Energy
+</p>
+
+<p>
+"I had been searching for Scala classes, but getting a chance to learn about the language from an author of 
+<em>Programming in Scala</em> was great. It gave me a very good introduction. Thanks a lot to Bill and Dick
+to make this informative and fun." Anonymous
+</p>
+
+<p>
+"Liked it very much! Very practical and covers a lot. Espcially loved all the exercises&#8212;very nicely done! Ability
+to ask Martin Odersky was a very nice touch. Overall&#8212excellent!" Eugene Ryzhikov, Lead Developer
+</p>
+
+<p>
+"This is a great experience! Best workshop I ever attended." Anonymous
+</p>
+
+<p>
+"This seminar was extremely informative and interesting. The instructors are clearly very knowledgeable and approachable. The
+class was a good mixture of presentations and practical exercises, which helped solidify the material." Patrick Kaeding
+</p>
+
+<p>
+"After taking this workshop, I fell well-prepared to venture into my own Scala projects, tackle Scala fundamentals, and
+explain to my collegues some of what makes Scala awesome." Anonymous
+</p>
+
+<p>
+"Great language, knowledgeable and amiable instructors, good balance between presentations and exercises,
+great breadth and surprising depth: what&#39;s not to like?" Anonymous
+</p>
+
+<p>
+"This class was very challenging and thorough. The value of the course was greatly enhanced by the exercises, because they
+were done as test suites. Bill and Dick presented with a sense of expertise, humor, and joy." Anonymous
+</p>
+
+<p>
+"I learned all I would need to start developing in Scala here." Anonymous
+</p>
+
+<p>
+"The workshop was great. Bill and Dick keep a very relaxed environment facilitating an easy and fun transfer of knowledge." Ben Barefield, SRT Solutions
+</p>
+
+<p>
+"If learning Scala from a book or the web is exercising to a workout DVD, then Artima&#39;s Stairway to Scala is spring training
+with a pro football team." Tim Taylor
+</p>
+
+<p>
+"It was an excellently put together workshop. I&#39;m usually skeptical of abstraction more than what Java and its
+frameworks provide, but this material was presented very convincingly and I can clearly see how this can help me be more
+productive, spend more time/resources writing the code that actually matters." Sandeep Shrestha, Software Development Lead, Monsanto
+</p>
+
+<p>
+"The five-day workshop gave my entire group the practical theory and hands-on training to dive right into beginning and
+advance Scala projects. Bill and Dick customized the class to our needs before and even during the week." Ryan Richt, Monsanto Genome Integration Lead
+</p>
+
+<p>
+"Stairway to Scala is a comprehensive and interactive experience. I highly recommend the full five-day course." Dianne Marsh, Cofounder, SRT Solutions
+</p>
+
+<p>
+"Bill and Dick are very entertaining teachers and they really know the subject." Bruce Eckel
+</p>
+
+
+<p>
+"Dick and Bill really know their stuff. They have obvious passion for Scala and for passing on their knowledge." Andrew Boudreau
+</p>
+
+<h1>Sign up for the stairway!</h1>
+
+
+  <p id="listofworkshops">
+    We don't currently have any workshops scheduled.  We will soon, so
+    please check back!
+  </p>
+
+
+<div class="smallprint">
+<p style="text-align: center">
+Copyright &copy; 2014 Artima, Inc. All rights reserved.
+</p>
+</div>
+</div>
+</body>
+</html>
