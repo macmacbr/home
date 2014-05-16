@@ -1,7 +1,22 @@
 #!/bin/bash
-ps -o pid,comm|sed -e '/tail/!d' -e 's/^ *\([0-9]\+\) .*$/\1/'|xargs -r kill
+ps -o pid,comm -u $(id -u)|sed -e '/tail/!d' -e 's/^ *\([0-9]\+\) .*$/\1/'|xargs -r kill
 
+INTMUX=1
+if [ -z "$TMUX" ];then
+    INTMUX=0
+else
+    while ! tmux list-pane |wc -l |grep 1 >/dev/null; do
+        tmux kill-pane -t 1
+    done
+fi
 if [ -z "$1" ];then
-	tail -F /var/log/stumble/{debug,error}.log |grep $(whoami) &
-	tail -F /var/log/apache2/other_vhosts_access.log |grep $(whoami) &
+    tail -F /var/log/stumble/debug.log |grep $(whoami) &
+    tail -F /var/log/stumble/error.log |grep $(whoami) &
+    if [ $INTMUX == 1 ];then    
+        tmux split-window
+        tmux resize-pane 10
+        tmux send-keys -t 1 'tail -F /var/log/stumble/error.log' Enter
+        tmux up-pane
+    fi
+    tail -F /var/log/apache2/other_vhosts_access.log |grep $(whoami) &
 fi
