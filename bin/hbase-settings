@@ -1,0 +1,44 @@
+# respond to HADOOP_ENV variable
+
+HBASE_BASE=/opt/hbase
+HBASE_CFG=/opt/hbase/conf
+
+HBASE_VERSION=0.94.6-cdh4.3.1-security
+
+if [ ! -d ${HBASE_CFG} ]; then
+    if [ -d /home/hadoop/hbase_conf ]; then
+        HBASE_BASE=/home/hadoop/hbase
+        HBASE_CFG=/home/hadoop/hbase/conf
+    else
+        echo "HBase installation missing, please install the bits"
+        exit 1
+    fi
+fi
+
+case "$HADOOP_ENV" in
+  prodjobs)
+    ;;
+  backup)
+    ;;
+  ops)
+    ;;
+  dev)
+    ;;
+  prodstore)
+    ;;
+  va1-batch)
+    ;;
+  *)
+    echo "Please set HADOOP_ENV to one of:"
+    echo "  dev        - SFO development"
+    echo "  ops        - Ops"
+    echo "  prodjobs   - SV4 prodjobs"
+    echo "  prodstore  - SV4 prodstore"
+    echo "  backup     - VA1 backup"
+    echo "  va1-batch  - VA1 batch"
+
+    exit 1
+esac
+
+JAVA_LIBRARY_PATH=${JAVA_LIBRARY_PATH}:${HBASE_HOME}/lib/native
+export HBASE_BASE HBASE_CFG HBASE_VERSION JAVA_LIBRARY_PATH

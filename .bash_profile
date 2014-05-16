@@ -7,17 +7,15 @@ if [ -n "$PS1" ];then
 	alias rm='rm -i'
 	alias cds='pushd ~/git/stumble'
 	alias cdp='pushd ~/git/portal'
-
+    alias git_graphical='git log --graph --full-history --all --color         --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
+    alias acknoExt='ack --ignore-directory=ext --ignore-directory=test'
 
 	export HISTIGNORE="cd:ls:ls -l:fg:bg"
 	export HISTCONTROL=ignorespace:ignoredups
 
 fi
-function savemarcoenv {
-	cd && ( [ -f marco.tgz ] && rm -f marco.tgz ); tar -czf marco.tgz .bash* .vim* bin
-	cd -
-}
 
-function cdlast {
-	cd $(ls -tr -1 |tail -1)
-}
+[ -f ~/.bash_functions ] && . ~/.bash_functions
+
+# added by Anaconda 1.9.2 installer
+export PATH="/Applications/anaconda/bin:$PATH"

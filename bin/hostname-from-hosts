@@ -1,0 +1,2 @@
+#!/bin/bash
+awk '/'$(hostname)'/{print $3;}' /etc/hosts

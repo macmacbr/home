@@ -8,117 +8,117 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/base
+~MSle0~/10.1.7.5
 
 # Last Substitute Search Pattern:
-~MSle0&max
+~MSle0&name = "NAME
 
 # Last Substitute String:
-$base
+$name = "
 
 # Command Line History (newest to oldest):
-:q
-:w
-:bd
 :wq
-:%s/max/base/g
-:save! MaxPalindrome.scala
-:w MaxPalindrome.scala
-:bn
-:set number
-:20
-:bp
-:r !hostname
-:w !pbcopy
+:w
+:q
+:'<,'>w !pbcopy
+:%s/name = "NAME/name = "/
+:!pwd
 :e!
-:w /tmp/%
-:"w
-:q!
-:224
-:w!
-:set ft=dosini
-:help ft
-:set ft=ini
-:set ft=supervisord.conf
-:set ft=conf
-:set ic
-:e /etc/hosts
-:e ~/.vimrc
-:set shiftwidth=4
-:set shiftwidth=8
-:set shiftwidth
-:set expandtab
-:set tabstop=4
-:syntax on
-:set syntax=scala
-:set syntax
-:set syntax on
-:ls
-:qa
-:diffupdate
-:diffput
-:set background=dark
-:set background
 :pwd
+:q!
+:bp
+:e ~/bin/gitpushtoreview
+:set ft=sh
+:set ft=bash
 :set paste
-:set ft=erlang
-:48
-:q!a
-:vert diffsplit test1.wsdl
-:q1
-:diffsplit test1.wsdl
+:w !pbcopy
+:set 
+:set expandtab
+:'<,'>w |pbcopy
+:%s/^\(.*\)")$/\1",\r\1NAME")/
+:%s/^\(.*\)")$/\1",\1NAME")/
+:    private val user1 = makeUser(UserId("10422036"),
+:g/^\(.*\)\n\1$/d
+:sort
+:%s/=3D/=/
+:%s/=3D//
+:g/=\n/s///
+:%s/ ).//
+:g!/http/d
+:g/=\n//
+:help global
+:g/^(.*)=\n(.*)$/\1\2/
+:help g
+:g/^\(.*\)=\n\(.*\)$/\1\2/
+:g/=\n/d
+:%s/&/&\r/g
+:%s/&/&\n/g
+:W
+:"w
+:'<,'>s/array/HOSTPIECES/g
+:let g:is_bash=1
+:h ft-sh-syntax
+:for index in "${!array[@]}"
+:set syntax=bash
+:bd
+:bo
+:set ic
+:ls
+:set ft=php
+:set number
+:bn
 
 # Search String History (newest to oldest):
-?/base
-? max
-?/calculate
-? \<idx\>
-?/submit
-? \<UrlDetails\>
-? \<allFactors\>
-? \<do_command\>
-? \<__main__\>
-? \<hostinfo\>
-?/do(
-?/facebook
-?/suicide
-?/id
-?/supervisor.sock
-?/reports
-?/path
-?/PATH
-?/localhost
-?/sfodev
-?/echo "[^[]
-?/Killing
-? \<LOCKERKILLOLD\>
-? \<gui_running\>
-?/tabstop
-?/PID is active
-? \<Task\>
-? \<MailingServiceSchema\>
-? \<DefaultDataSourceIdFormat\>
-?/java
-?/^diff
-? \<loadUser\>
-? \<findScalaHome\>
-?/HOME
-?/$@
-? \<opt\>
-? ^.*\%29c
-?/https:
-?/xsd
-?/encoded
-?/tns
-? \<TradePriceRequest\>
-?/types
-?/text\/xml
-?/xml
-?/top_srcdir
-?/top_srcdif
-? \<top_srcdir\>
-?/build-aux
-?/native.src.dir
+?/10.1.7.5
+? \<user1\>
+?/NAME
+?/name = "NAME
+?/0.1.14
+?/time
+?/bug
+?/google
+?/scalalogging
+? \<_scalaVersion\>
+?/log
+?/slf4j
+?/repositories
+? ^\(.*\)")$
+?/emailstruct
+? \<emailApi\>
+? ^\(.*\)\n\1$
+? =3D
+?/=4D
+?/3D
+? =\n
+?/"
+?  ).
+?/ 
+? http
+? ^(.*)=\n(.*)$
+? ^\(.*\)=\n\(.*\)$
+? &
+?/gpm_init
+? \<longToBytes\>
+? \<toBin\>
+? \<keytool\>
+? array
+?/email
+?/SU_ENV
+?/fixup
+?/MARCO
+?/here are some
+? \<hbaseidLTB\>
+? print
+? emailid
+? PARTNERS
+?/settings
+? ^\(.*\)\n\1
+? -\(name:\)\?
+? -\(name\)\?
+?  \+
+?/adofij
+? ]));
+? \<hbaseidTLB\>
 
 # Expression History (newest to oldest):
 
@@ -128,1386 +128,1156 @@ $base
 
 # Registers:
 "0	LINE	0
-	   def main(args: Array[String]) {
-""1	LINE	0
-	          println (List[Int](1,2,3).reduceLeft(_ * _))
+	  compile 'com.google.guava:guava:14.0'
+"1	LINE	0
+	  mavenLocal()
 "2	LINE	0
-	
+	    set -e
 "3	LINE	0
-	    if (b > a)
-	      calculate(base, a + 1, b)
+	
 "4	LINE	0
-	      
+	
 "5	LINE	0
-	      print(prod + " " a)
+	    REMOTE=$(git remote show origin|awk -F'[:\/]' '/Fetch URL/{$1="";print $0;}')
 "6	LINE	0
-	      print(ab.toString + " ")
+	461
+<http://sg.esp.stumblemail.com/wf/click?upn=sWS4CEVxpXBvlD1EsCuwt27KEAht2DNrMAwGgvq-2B89HukE2wdRYkIqZuKEi2t4WYj1NCqf-2Bpn4-2FTrkaNgZiYow-2FXnuqJwzaGesAVA03CVpM-3D_8R7FlNNoHTWzAtUddcnTZMfUtFW5YbFnEIsIUKhSBxLlD0xwdXqB4wf048SxNpnhXCFr8DrjsEcKvm6jaVTrlk1m39d8AgecfofOzhYgC9w3jFFXqe5vFYfAlvksaqCFlf-2FxqVwJClNqaxTD38YTzD3UfDEvs-2FD9jwZBRTeoq-2BT-2FBmYI3ikwUAwYW0zP5S8BbKiUD40DvNhOC4PtgY-2Bo6ExkxQwyhaYrNPI0Z4M0AjrP0sKQkkN7LJyZBaCVZjOdUsvqt-2BOak2iJHSioFsQLqg-3D-3D
 "7	LINE	0
-	    *    To minimize ab, go a=1 to n and b = 1 to a.
+	461
+<http://sg.esp.stumblemail.com/wf/click?upn=sWS4CEVxpXBvlD1EsCuwt27KEAht2DNrMAwGgvq-2B89HukE2wdRYkIqZuKEi2t4WYj1NCqf-2Bpn4-2FTrkaNgZiYow-2FXnuqJwzaGesAVA03CVpM-3D_8R7FlNNoHTWzAtUddcnTZMfUtFW5YbFnEIsIUKhSBxLlD0xwdXqB4wf048SxNpnhXCFr8DrjsEcKvm6jaVTrlk1m39d8AgecfofOzhYgC9w3jFFXqe5vFYfAlvksaqCFlf-2FxqVwJClNqaxTD38YTzD3UfDEvs-2FD9jwZBRTeoq-2BT-2FBmYI3ikwUAwYW0zP5S8BbKiUD40DvNhOC4PtgY-2Bo6ExkxQwyhaYrNPI0Z4M0AjrP0sKQkkN7LJyZBaCVZjOdUsvqt-2BOak2iJHSioFsQLqg-3D-3D
 "8	LINE	0
-	      println(a, b)
+	407
+<http://sg.esp.stumblemail.com/wf/click?upn=0oaE8rf42zL3NN7VTrYijORlCHK6jjG8I9wDkVCzusRHifbEwn-2B-2BJScBePC7NrP0_8R7FlNNoHTWzAtUddcnTZMfUtFW5YbFnEIsIUKhSBxLlD0xwdXqB4wf048SxNpnhXCFr8DrjsEcKvm6jaVTrlpo5opCS96NEjqjSMjINikMHI9s-2Bpjq-2FQUPyL3wUpHZotNE9RJZtd-2B6VIcm5yVFlaUsY9-2FltqUtSenfFi5bUHUNwvTATBpv1z4lAW39tHBS8kPoWNHgjKj4UOB4TOCTxUV0GuLqXqyZ3cgFvilyB5q94yQCCirHlmPIpUTIQiP52lY3CgSFmxv6JpV1NKho8zA-3D-3D
 "9	LINE	0
-	    val ab = a * b
-"-	CHAR	0
-	)
+	
+""-	CHAR	0
+	 
 
 # File marks:
-'0  14  19  ~/play/AllFactors.scala
-'1  21  0  ~/play/FirstFactor.scala
-'2  1  0  ~/play/SumDiff.scala
-'3  7  0  ~/play/MaxPalindrome.scala
-'4  20  4  ~/play/MaxPalindrome.scala
-'5  21  4  ~/play/MaxPalindrome.scala
-'6  3  11  ~/play/MaxPalindrome.scala
-'7  1  0  ~/play/AllFactors.scala
-'8  35  12  ~/play/FirstFactor.scala
-'9  1  58  ~/.sbt/0.13/plugins.sbt
+'0  75  4  ~/.gitignore
+'1  1  0  ~/IdeaProjects/emailqueue/build.gradle
+'2  1  0  /private/etc/hosts
+'3  1161  0  ~/git/operations/puppet/files/default/etc/hosts
+'4  1  9  ~/git/data-access-library/.git/COMMIT_EDITMSG
+'5  2  9  ~/git/data-access-library/.git/COMMIT_EDITMSG
+'6  88  0  ~/git/falkor/build.gradle
+'7  43  16  ~/git/data-access-library/src/test/scala/com/stumbleupon/data/user/UserAccessorTest.scala
+'8  115  4  ~/git/data-access-library/src/main/scala/com/stumbleupon/canneddata/db/UserTableCannedData.scala
+'9  2  0  ~/git/falkor/.git/COMMIT_EDITMSG
 
 # Jumplist (newest first):
--'  14  19  ~/play/AllFactors.scala
--'  4  27  ~/play/AllFactors.scala
--'  21  0  ~/play/FirstFactor.scala
--'  37  0  ~/play/FirstFactor.scala
--'  1  0  ~/play/SumDiff.scala
--'  15  27  ~/play/AllFactors.scala
--'  7  0  ~/play/MaxPalindrome.scala
--'  28  31  ~/play/MaxPalindrome.scala
--'  34  9  ~/play/MaxPalindrome.scala
--'  44  40  ~/play/MaxPalindrome.scala
--'  20  4  ~/play/MaxPalindrome.scala
--'  47  14  ~/play/MaxPalindrome.scala
--'  45  18  ~/play/MaxPalindrome.scala
--'  23  16  ~/play/MaxPalindrome.scala
--'  21  31  ~/play/MaxPalindrome.scala
--'  1  0  ~/play/MaxPalindrome.scala
--'  36  14  ~/play/MaxPalindrome.scala
--'  8  11  ~/play/MaxPalindrome.scala
--'  5  35  ~/play/MaxPalindrome.scala
--'  40  8  ~/play/MaxPalindrome.scala
--'  3  11  ~/play/MaxPalindrome.scala
--'  14  0  ~/play/FirstFactor.scala
--'  35  12  ~/play/FirstFactor.scala
--'  23  0  ~/play/AllFactors.scala
--'  12  48  ~/play/MaxPalindrome.scala
--'  6  0  ~/play/AllFactors.scala
--'  11  0  ~/play/MaxPalindrome.scala
--'  2  0  ~/play/AllFactors.scala
--'  1  0  ~/play/AllFactors.scala
--'  30  15  ~/play/AllFactors.scala
--'  3  0  ~/play/FirstFactor.scala
--'  38  0  ~/play/FirstFactor.scala
--'  34  2  ~/play/FirstFactor.scala
--'  36  3  ~/play/FirstFactor.scala
--'  1  0  ~/play/FirstFactor.scala
--'  1  58  ~/.sbt/0.13/plugins.sbt
--'  5  37  ~/git/serviceconfig/dev/webservices/emailWSAPI.yaml
--'  1  0  ~/git/serviceconfig/dev/webservices/emailWSAPI.yaml
--'  672  0  ~/git/stumble/ext/zend/library/Zend/Soap/Wsdl.php
--'  1  0  ~/git/stumble/ext/zend/library/Zend/Soap/Wsdl.php
--'  1  0  ~/git/stumble/.git/MERGE_MSG
--'  46  20  ~/git/stumble/.git/config
--'  45  0  ~/git/stumble/.git/config
--'  1  0  ~/git/stumble/.git/config
--'  9  32  ~/IdeaProjects/emailqueue/scripts/subscribees.sql
--'  12  0  ~/IdeaProjects/emailqueue/scripts/subscribees.sql
--'  1  0  ~/IdeaProjects/emailqueue/scripts/subscribees.sql
--'  20  15  ~/IdeaProjects/emailqueue/build/resources/main/template/strongViewSuggestion.vm
--'  6  30  ~/IdeaProjects/emailqueue/build/resources/main/template/strongViewSuggestion.vm
--'  30  34  ~/IdeaProjects/emailqueue/build/resources/main/template/strongViewSuggestion.vm
--'  34  20  ~/IdeaProjects/emailqueue/build/resources/main/template/strongViewSuggestion.vm
--'  27  38  ~/IdeaProjects/emailqueue/build/resources/main/template/strongViewSuggestion.vm
--'  2  9  ~/IdeaProjects/emailqueue/build/resources/main/template/strongViewSuggestion.vm
--'  4  0  ~/IdeaProjects/emailqueue/build/resources/main/template/strongViewSuggestion.vm
--'  1  0  ~/IdeaProjects/emailqueue/build/resources/main/template/strongViewSuggestion.vm
--'  1  0  ~/IdeaProjects/emailqueue/build/resources/main/template/strongViewUserNew.vm
--'  5  30  ~/IdeaProjects/emailqueue/build/resources/main/template/strongViewUserNew.vm
--'  6  13  ~/IdeaProjects/emailqueue/build/resources/main/template/strongViewUserNew.vm
--'  4  13  ~/IdeaProjects/emailqueue/out/production/emailqueue/template/strongViewUserNew.vm
--'  4  10  ~/IdeaProjects/emailqueue/src/main/resources/template/strongViewUserNew.vm
--'  3  0  ~/IdeaProjects/emailqueue/build/resources/main/template/strongViewUserNew.vm
--'  1  0  /build/resources/main/template/strongViewUserNew.vm
--'  5  12  ~/IdeaProjects/emailqueue/src/main/resources/template/strongViewUserNew.vm
--'  1  0  ~/IdeaProjects/emailqueue/src/main/resources/template/strongViewUserNew.vm
--'  1  8  ~/IdeaProjects/emailqueue/out/production/emailqueue/template/strongViewUserNew.vm
--'  7  12  ~/IdeaProjects/emailqueue/build/resources/main/template/strongViewUserNew.vm
--'  45  9  ~/play/AllFactors.scala
--'  42  8  ~/play/AllFactors.scala
--'  54  0  ~/play/AllFactors.scala
--'  38  0  ~/play/memory.php
--'  89  13  ~/play/memory.php
--'  96  13  ~/play/memory.php
--'  97  11  ~/play/memory.php
--'  55  20  ~/play/memory.php
--'  23  4  ~/play/FiboEven.scala
--'  7  11  ~/play/FiboEven.scala
--'  5  35  ~/play/FiboEven.scala
--'  12  11  ~/play/FiboEven.scala
--'  1  0  ~/play/FiboEven.scala
--'  31  18  ~/play/FiboEven.scala
--'  29  8  ~/play/FiboEven.scala
--'  30  6  ~/play/FiboEven.scala
--'  25  9  ~/play/FiboEven.scala
--'  3  11  ~/play/FiboEven.scala
--'  34  38  ~/play/FiboEven.scala
--'  3  6  ~/play/SumDiff.scala
--'  11  27  ~/play/AllFactors.scala
--'  7  12  ~/play/AllFactors.scala
--'  65  0  ~/play/AllFactors.scala
--'  39  1  ~/play/AllFactors.scala
--'  34  0  ~/play/AllFactors.scala
--'  39  14  ~/play/MaxPalindrome.scala
--'  38  16  ~/play/MaxPalindrome.scala
--'  32  18  ~/play/MaxPalindrome.scala
--'  26  16  ~/play/MaxPalindrome.scala
--'  22  31  ~/play/MaxPalindrome.scala
--'  27  14  ~/play/MaxPalindrome.scala
+-'  75  4  ~/.gitignore
+-'  7  0  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  1  0  ~/IdeaProjects/emailqueue/build.gradle
+-'  1  0  /private/etc/hosts
+-'  1426  0  /private/etc/hosts
+-'  1161  0  ~/git/operations/puppet/files/default/etc/hosts
+-'  6  0  ~/git/operations/puppet/files/default/etc/hosts
+-'  1  0  ~/git/operations/puppet/files/default/etc/hosts
+-'  1  9  ~/git/data-access-library/.git/COMMIT_EDITMSG
+-'  2  9  ~/git/data-access-library/.git/COMMIT_EDITMSG
+-'  88  0  ~/git/falkor/build.gradle
+-'  108  34  ~/git/falkor/build.gradle
+-'  3  0  ~/git/data-access-library/.git/COMMIT_EDITMSG
+-'  43  16  ~/git/data-access-library/src/test/scala/com/stumbleupon/data/user/UserAccessorTest.scala
+-'  147  24  ~/git/data-access-library/src/test/scala/com/stumbleupon/data/user/UserAccessorTest.scala
+-'  144  52  ~/git/data-access-library/src/test/scala/com/stumbleupon/data/user/UserAccessorTest.scala
+-'  139  24  ~/git/data-access-library/src/test/scala/com/stumbleupon/data/user/UserAccessorTest.scala
+-'  136  52  ~/git/data-access-library/src/test/scala/com/stumbleupon/data/user/UserAccessorTest.scala
+-'  130  24  ~/git/data-access-library/src/test/scala/com/stumbleupon/data/user/UserAccessorTest.scala
+-'  127  52  ~/git/data-access-library/src/test/scala/com/stumbleupon/data/user/UserAccessorTest.scala
+-'  1  0  ~/git/data-access-library/src/test/scala/com/stumbleupon/data/user/UserAccessorTest.scala
+-'  115  4  ~/git/data-access-library/src/main/scala/com/stumbleupon/canneddata/db/UserTableCannedData.scala
+-'  14  56  ~/git/data-access-library/src/main/scala/com/stumbleupon/canneddata/db/UserTableCannedData.scala
+-'  1  0  ~/git/data-access-library/src/main/scala/com/stumbleupon/canneddata/db/UserTableCannedData.scala
+-'  2  0  ~/git/falkor/.git/COMMIT_EDITMSG
+-'  1  0  ~/git/falkor/.git/COMMIT_EDITMSG
+-'  71  2  ~/git/falkor/build.gradle
+-'  107  10  ~/git/falkor/build.gradle
+-'  111  0  ~/git/falkor/build.gradle
+-'  117  0  ~/git/falkor/build.gradle
+-'  86  5  ~/git/falkor/build.gradle
+-'  15  106  ~/git/falkor/build.gradle
+-'  122  0  ~/git/falkor/build.gradle
+-'  112  0  ~/git/falkor/build.gradle
+-'  114  11  ~/git/falkor/build.gradle
+-'  97  24  ~/git/falkor/build.gradle
+-'  110  2  ~/git/falkor/build.gradle
+-'  90  2  ~/git/falkor/build.gradle
+-'  25  23  ~/git/falkor/build.gradle
+-'  23  2  ~/git/falkor/build.gradle
+-'  1  0  ~/git/falkor/build.gradle
+-'  106  50  ~/git/falkor/build.gradle
+-'  53  0  ~/git/falkor/build.gradle
+-'  14  110  ~/git/falkor/build.gradle
+-'  103  46  ~/IdeaProjects/emailqueue/build.gradle
+-'  119  31  ~/IdeaProjects/emailqueue/build.gradle
+-'  141  28  ~/IdeaProjects/emailqueue/build.gradle
+-'  150  20  ~/IdeaProjects/emailqueue/build.gradle
+-'  135  50  ~/IdeaProjects/emailqueue/build.gradle
+-'  108  0  ~/IdeaProjects/emailqueue/build.gradle
+-'  13  0  ~/IdeaProjects/emailqueue/build.gradle
+-'  66  30  ~/IdeaProjects/emailqueue/build.gradle
+-'  20  46  ~/bin/gitcreatehook.sh
+-'  4  0  ~/bin/gitpushtoreview
+-'  21  0  ~/bin/gitcreatehook.sh
+-'  14  68  ~/bin/gitcreatehook.sh
+-'  12  1  ~/bin/gitcreatehook.sh
+-'  1  0  ~/bin/gitcreatehook.sh
+-'  1  7  ~/git/data-access-library/lixo
+-'  13  37  ~/bin/git_create_hook.sh
+-'  3  26  ~/bin/git_create_hook.sh
+-'  1  0  ~/bin/git_create_hook.sh
+-'  1  0  ~/git/serviceconfig/userdb_readonly_creds.yaml
+-'  12  0  ~/IdeaProjects/emailqueue/classes/production/emailqueue/template/strongViewUserNew.vm
+-'  1  0  ~/IdeaProjects/emailqueue/classes/production/emailqueue/template/strongViewUserNew.vm
+-'  32  0  ~/git/stumble/lib/api/v2_0/email/DispatcherSendGrid.php
+-'  1  0  ~/git/stumble/lib/api/v2_0/email/DispatcherSendGrid.php
+-'  1  0  ~/git/stumble/ext/portal/www/mysql/include/Dao/Impl/DaoImplEmailVariants.php
+-'  1  0  ~/git/stumble/ext/portal/www/mysql/include/Dao/Impl/DaoImplEmailDetails.php
+-'  39  8  ~/git/stumble/lib/gearman/jobhandlers/EmailDigest.php
+-'  27  9  ~/git/stumble/lib/gearman/jobhandlers/EmailDigest.php
+-'  1  0  ~/git/stumble/lib/gearman/jobhandlers/EmailDigest.php
+-'  11  0  ~/footer.links
+-'  1  0  ~/footer.links
+-'  5  0  ~/footer.links
+-'  3  0  ~/footer.links
+-'  13  0  ~/footer.links
+-'  4  43  ~/footer.links
+-'  15  0  ~/footer.links
+-'  10  0  ~/footer.links
+-'  9  0  ~/footer.links
+-'  8  0  ~/footer.links
+-'  7  603  ~/footer.links
+-'  6  532  ~/footer.links
+-'  172  47  ~/git/stumble/asset/common/common/template/email/master/www.tpl
+-'  1  0  ~/git/stumble/asset/common/common/template/email/master/www.tpl
+-'  2  22  ~/git/stumble/config/email/emails/notification_discovery_follow.yaml
+-'  1  0  ~/git/stumble/config/email/segmentation/segment_types.yaml
+-'  79  2  ~/git/stumble/config/renderer_plugins.yaml
+-'  84  32  ~/git/stumble/script/mcarvalho/id2hbase.php
+-'  1  0  ~/git/stumble/script/mcarvalho/.id2hbase.php.swp
+-'  1  0  ~/git/stumble/script/mcarvalho/id2hbase.php
+-'  77  16  ~/git/stumble/script/mcarvalho/id2hbase.php
+-'  85  9  ~/git/stumble/script/mcarvalho/id2hbase.php
+-'  90  16  ~/git/stumble/script/mcarvalho/id2hbase.php
+-'  11  0  ~/git/stumble/script/mcarvalho/id2hbase.php
+-'  6  0  ~/git/stumble/script/mcarvalho/id2hbase.php
+-'  1  0  /Applications/lixo
 
 # History of marks within files (newest to oldest):
 
-> ~/play/AllFactors.scala
-	"	14	19
-	.	15	0
-	+	15	0
-	+	15	12
-	+	15	4
-	+	9	49
-	+	7	25
-	+	9	32
-	+	15	0
-	+	8	18
-	+	9	49
-	+	11	0
-	+	10	24
-	+	11	10
-	+	13	0
-	+	13	16
-	+	8	12
-	+	13	0
-	+	12	0
-	+	8	13
-	+	13	8
-	+	15	5
-	+	17	0
-	+	16	0
-	+	17	2
-	+	16	0
-	+	31	0
-	+	7	26
-	+	9	53
-	+	7	24
-	+	11	11
-	+	9	10
-	+	11	28
-	+	14	37
-	+	15	0
+> ~/.gitignore
+	"	75	4
+	^	75	1
+	.	75	4
+	+	75	4
 
-> ~/play/FirstFactor.scala
-	"	21	0
-	.	36	0
-	+	35	10
-	+	36	10
-	+	1	0
-	+	33	0
-	+	32	0
-	+	38	0
-	+	38	0
-	+	38	0
-	+	38	24
-	+	38	0
-	+	38	0
-	+	38	0
-	+	35	0
-	+	36	0
-	+	33	0
-	+	36	0
+> /private/etc/hosts
+	"	1	0
 
-> ~/play/MaxPalindrome.scala
-	"	7	0
-	^	28	32
-	.	28	31
-	+	47	16
-	+	23	27
-	+	20	50
-	+	21	33
-	+	21	33
-	+	47	21
-	+	37	21
-	+	15	31
-	+	17	0
-	+	15	35
-	+	16	22
-	+	17	0
-	+	16	35
-	+	17	0
-	+	37	8
-	+	44	22
-	+	45	22
-	+	5	20
-	+	7	51
-	+	36	37
-	+	34	36
-	+	35	0
-	+	23	41
-	+	47	0
-	+	39	18
-	+	23	29
-	+	44	17
-	+	44	29
-	+	23	48
-	+	44	28
-	+	23	48
-	+	44	34
-	+	45	33
-	+	23	41
-	+	44	15
-	+	35	15
-	+	44	6
-	+	23	29
-	+	44	22
-	+	45	24
-	+	44	0
-	+	45	0
-	+	44	0
-	+	37	17
-	+	35	0
-	+	40	4
-	+	34	27
-	+	23	42
-	+	36	44
-	+	21	0
-	+	7	38
-	+	37	0
-	+	39	0
-	+	44	25
-	+	36	46
-	+	8	0
-	+	23	30
-	+	34	9
-	+	36	33
-	+	44	26
-	+	35	0
-	+	37	15
-	+	36	52
-	+	23	30
-	+	23	0
-	+	36	30
-	+	37	0
-	+	36	37
-	+	23	30
-	+	34	9
-	+	44	23
-	+	23	56
-	+	44	29
-	+	38	44
-	+	44	6
-	+	34	22
-	+	35	30
-	+	35	12
-	+	44	30
-	+	35	0
-	+	41	17
-	+	44	7
-	+	43	9
-	+	42	27
-	+	33	15
-	+	23	27
-	+	32	0
-	+	32	0
-	+	24	15
-	+	28	49
-	+	31	6
-	+	32	0
-	+	26	18
-	+	24	6
-	+	42	17
-	+	44	17
-	+	24	22
-	+	26	30
-	+	25	33
-	+	28	31
+> ~/git/operations/puppet/files/default/etc/hosts
+	"	1161	0
 
-> ~/play/SumDiff.scala
-	"	1	14
-	^	1	15
-	.	1	14
-	+	8	0
-	+	8	0
-	+	1	32
-	+	8	0
-	+	3	14
-	+	3	12
-	+	3	38
-	+	4	13
-	+	3	36
-	+	4	46
-	+	5	10
-	+	4	10
-	+	5	45
-	+	7	11
-	+	5	47
-	+	7	22
-	+	8	0
-	+	2	25
-	+	4	26
-	+	5	38
-	+	7	16
-	+	2	24
-	+	6	0
-	+	7	43
-	+	1	14
-	x	3	6
-
-> ~/play/FiboEven.scala
-	"	23	4
-	^	37	78
-	.	37	77
+> ~/git/data-access-library/.git/COMMIT_EDITMSG
+	"	1	9
+	^	2	10
+	.	2	9
+	+	1	69
+	+	2	29
+	+	1	36
+	+	1	69
 	+	3	0
+	+	1	70
+	+	2	9
+
+> ~/git/falkor/build.gradle
+	"	88	0
+	.	108	50
+	+	114	0
+	+	108	0
+	+	83	0
+	+	69	0
+	+	108	50
+
+> ~/git/stumble/lib/protobuf/Factory.php
+	"	7	21
+
+> ~/git/stumble/app/api2_0/lib/utility/DeviceTypeHelper.php
+	"	10	7
+
+> ~/bin/gitcreatehook.sh
+	"	24	1
+	^	12	92
+	.	12	91
+	+	12	1
+	+	12	0
+	+	12	78
+	+	12	13
+	+	21	0
+	+	12	74
+	+	21	0
+	+	12	48
+	+	12	0
+	+	14	4
+	+	13	41
+	+	14	4
+	+	21	0
+	+	14	30
 	+	18	0
-	+	39	0
+	+	21	0
+	+	17	20
+	+	16	44
+	+	21	0
+	+	10	0
+	+	20	10
+	+	20	11
+	+	21	0
+	+	20	46
+	+	12	45
+	+	13	0
+	+	12	91
+
+> ~/git/data-access-library/src/test/scala/com/stumbleupon/data/user/UserAccessorTest.scala
+	"	43	16
+
+> ~/git/data-access-library/src/main/scala/com/stumbleupon/canneddata/db/UserTableCannedData.scala
+	"	115	4
+	.	14	0
+	+	14	0
+
+> ~/git/falkor/.git/COMMIT_EDITMSG
+	"	2	0
+	^	2	0
+	.	1	41
+	+	1	41
+
+> ~/git/falkor/src/test/scala/com/stumbleupon/recommendation/infrastructure/data/dal/DalTestHelpers.scala
+	"	58	0
+	.	23	36
+	+	23	36
+	+	24	0
+	+	23	36
+
+> ~/git/data-access-library/build.gradle
+	"	10	0
+	.	108	0
+	+	108	0
+	+	108	0
+
+> ~/IdeaProjects/emailqueue/build.gradle
+	"	250	19
+	^	250	20
+	.	250	19
+	+	191	0
+	+	150	28
+	+	162	1
+	+	150	23
+	+	151	26
+	+	151	30
+	+	153	0
+	+	154	0
+	+	153	35
+	+	57	0
+	+	109	5
+	+	110	4
+	+	117	0
+	+	252	5
+	+	247	0
+	+	248	0
+	+	249	0
+	+	250	0
+	+	251	0
+	+	252	0
+	+	253	0
+	+	250	19
+
+> ~/bin/gitpushtoreview
+	"	4	0
+
+> ~/git/data-access-library/lixo
+	"	1	7
+
+> ~/bin/git_create_hook.sh
+	"	13	37
+	^	13	38
+	.	13	37
+	+	12	61
+	+	3	6
+	+	4	26
+	+	12	3
+	+	11	16
+	+	5	53
+	+	7	0
+	+	11	0
+	+	8	0
+	+	11	4
+	+	9	4
+	+	11	0
+	+	17	0
+	+	13	0
+	+	10	8
+	+	13	37
+
+> ~/git/serviceconfig/userdb_readonly_creds.yaml
+	"	1	0
+
+> ~/IdeaProjects/emailqueue/classes/production/emailqueue/template/strongViewUserNew.vm
+	"	12	0
+
+> ~/git/stumble/lib/api/v2_0/email/DispatcherSendGrid.php
+	"	32	0
+
+> ~/git/stumble/ext/portal/www/mysql/include/Dao/Impl/DaoImplEmailVariants.php
+	"	1	0
+
+> ~/git/stumble/ext/portal/www/mysql/include/Dao/Impl/DaoImplEmailDetails.php
+	"	1	0
+
+> ~/git/stumble/lib/gearman/jobhandlers/EmailDigest.php
+	"	39	8
+
+> ~/footer.links
+	"	11	0
+	.	11	0
+	+	15	4
+	+	1	0
 	+	15	0
-	+	15	2
+	+	15	0
+	+	4	0
+	+	1	0
+	+	1	0
+	+	1	391
+	+	1	0
+	+	4	0
+	+	15	28
+	+	8	40
+	+	15	0
+	+	15	0
+	+	10	0
+	+	10	0
+	+	15	0
+	+	15	0
+	+	1	404
+	+	1	0
+	+	1	0
+	+	3	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	3	0
+	+	4	407
+	+	5	537
+	+	4	405
+	+	6	0
+	+	6	532
+	+	6	0
+	+	7	0
+	+	8	0
+	+	7	0
+	+	7	603
+	+	1	0
+	+	8	0
+	+	8	459
+	+	9	0
+	+	10	0
+	+	9	0
+	+	9	166
+	+	10	0
+	+	10	353
+	+	1	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	11	0
+	+	13	439
+	+	13	62
+	+	13	139
+	+	13	138
+	+	13	214
+	+	13	213
+	+	13	289
+	+	13	288
+	+	13	364
+	+	13	363
+	+	13	439
+	+	13	438
+	+	15	0
+	+	13	437
+	+	14	335
+	+	1	0
+	+	3	43
+	+	4	0
+	+	4	0
+	+	2	43
+	+	4	43
+	+	5	0
+	+	1	0
+	+	5	0
+	+	1	0
+	+	11	0
+
+> /usr/share/vim/vim73/doc/index.txt
+	"	684	0
+
+> /usr/share/vim/vim73/doc/repeat.txt
+	"	74	31
+
+> ~/git/stumble/asset/common/common/template/email/master/www.tpl
+	"	172	47
+
+> ~/git/stumble/config/renderer_mapping.yaml
+	"	48	0
+
+> ~/git/stumble/config/renderer_plugins.yaml
+	"	77	8
+
+> ~/git/stumble/config/email/emails/notification_discovery_follow.yaml
+	"	2	22
+	^	2	23
+	.	2	22
+	+	2	22
+
+> ~/git/stumble/config/email/segmentation/segment_types.yaml
+	"	1	0
+
+> ~/git/stumble/script/mcarvalho/id2hbase.php
+	"	84	32
+	^	78	33
+	.	78	32
+	+	85	80
+	+	75	0
+	+	85	64
+	+	75	0
+	+	75	4
+	+	75	0
+	+	75	4
+	+	77	0
+	+	79	19
+	+	79	16
+	+	11	22
+	+	79	0
+	+	75	0
+	+	85	9
+	+	84	31
+	+	85	0
+	+	84	61
+	+	74	0
+	+	67	21
+	+	77	0
+	+	78	23
+	+	67	11
+	+	24	8
+	+	25	8
+	+	23	4
+	+	24	4
+	+	25	4
+	+	28	0
+	+	28	0
+	+	69	0
+	+	78	32
+
+> ~/git/stumble/script/mcarvalho/.id2hbase.php.swp
+	"	1	0
+
+> ~/git/stumble/config/webservices/email_providers.yaml
+	"	1	0
+
+> ~/bin/push_to_dev6.sh
+	"	22	74
+	^	22	75
+	.	22	74
+	+	23	41
+	+	21	94
+	+	14	16
+	+	17	0
+	+	17	3
+	+	13	5
+	+	17	0
 	+	17	0
 	+	15	3
-	+	16	26
-	+	15	0
-	+	32	0
-	+	16	7
-	+	4	4
-	+	3	13
-	+	12	5
-	+	5	3
-	+	12	4
-	+	31	25
-	+	25	46
-	+	31	48
-	+	25	23
-	+	26	23
-	+	31	44
-	+	38	0
+	+	14	9
+	+	20	5
+	+	16	0
+	+	22	74
+
+> ~/git/stumble/script/mcarvalho/certs/howto.sh
+	"	35	49
+	^	36	53
+	.	35	0
+	+	34	5
+	+	36	0
+	+	37	91
+	+	36	69
+	+	37	0
+	+	23	57
+	+	35	49
+	+	36	49
+	+	35	52
 	+	35	0
-	+	25	67
-	+	29	12
-	+	31	6
-	+	31	0
-	+	29	7
-	+	31	25
-	+	31	13
-	+	31	0
-	+	31	14
-	+	30	16
-	+	31	14
-	+	30	17
-	+	31	17
-	+	31	0
-	+	5	0
-	+	36	6
-	+	35	6
-	+	37	19
-	+	25	29
-	+	30	31
-	+	37	22
-	+	20	41
-	+	23	4
-	+	37	7
-	+	25	54
-	+	28	14
-	+	35	27
-	+	36	27
-	+	37	12
-	+	25	61
-	+	34	35
-	+	25	63
-	+	34	38
-	+	14	32
+
+> /private/etc/php.ini
+	"	1882	0
+	^	1882	1
+	.	1882	0
+	+	1859	0
+	+	1860	0
+	+	1859	0
+	+	1860	3
+	+	1862	12
+	+	308	15
+	+	1866	25
+	+	1874	0
+	+	1868	0
+	+	1870	0
+	+	1873	0
+	+	1883	0
+	+	1872	0
+	+	1878	16
+	+	873	0
+	+	1882	0
+
+> ~/git/stumble/ext/portal/www/scripts/jeichorn/php_ext/thrift/thrift_protocol/php_thrift_protocol.cpp
+	"	275	0
+
+> ~/git/stumble/ext/portal/www/scripts/jeichorn/php_ext/thrift/update_source.sh
+	"	1	0
+
+> ~/git/stumble/config/flag/email/admin.yaml
+	"	2	4
+
+> ~/git/stumble/ext/portal/www/mysql/include/auth_list.inc.php
+	"	510	3
+
+> ~/git/operations/puppet/modules/authz/manifests/users.pp
+	"	1452	20
+
+> /Applications/lixo
+	"	1	0
+
+> ~/test/certs/howto.sh
+	"	34	39
+	^	34	48
+	.	34	48
+	+	3	27
+	+	4	58
+	+	7	0
+	+	2	3
 	+	3	11
-	+	25	9
-	+	1	31
-	+	31	0
-	+	30	0
-	+	30	10
-	+	31	0
-	+	30	0
-	+	30	13
-	+	1	0
-	+	25	0
-	+	26	17
-	+	36	14
-	+	37	31
-	+	31	0
-	+	30	11
-	+	31	0
-	+	24	9
-	+	3	0
-	+	12	12
-	+	5	61
-	+	5	0
-	+	7	0
-	+	8	69
-	+	9	89
-	+	10	60
-	+	11	17
-	+	21	12
-	+	22	12
-	+	21	62
-	+	22	45
-	+	21	61
-	+	22	78
-	+	35	47
-	+	36	47
-	+	37	77
-
-> ~/.sbt/0.13/plugins.sbt
-	"	1	58
-	^	1	59
-	.	1	57
-	+	1	57
-
-> ~/git/serviceconfig/dev/webservices/emailWSAPI.yaml
-	"	5	37
-	^	5	38
-	.	5	37
-	+	2	7
-	+	2	8
-	+	3	0
-	+	5	37
-
-> ~/git/stumble/ext/zend/library/Zend/Soap/Wsdl.php
-	"	672	0
-
-> ~/git/stumble/.git/MERGE_MSG
-	"	1	0
-
-> ~/git/stumble/.git/config
-	"	46	20
-	^	46	39
-	.	46	0
-	+	1	0
-	+	44	0
-	+	45	0
-	+	44	27
-	+	46	0
-
-> ~/IdeaProjects/emailqueue/scripts/subscribees.sql
-	"	9	32
-	^	6	17
-	.	6	16
-	+	12	0
-	+	12	0
-	+	6	8
-	+	8	10
-	+	8	29
-	+	10	0
-	+	6	26
-	+	8	31
-	+	9	32
-	+	6	22
-	+	4	36
-	+	9	32
-	+	10	6
-	+	8	29
-	+	6	16
-
-> ~/IdeaProjects/emailqueue/scripts/subscribees35.sql
-	"	9	0
-	^	8	18
-	.	9	0
-	+	10	8
-	+	10	9
-	+	10	28
-	+	10	29
-	+	10	28
-	+	10	0
-	+	10	4
-	+	10	0
-	+	3	13
-	+	6	25
-	+	7	6
-	+	9	3
-	+	4	3
-	+	9	0
-	+	4	28
-	+	7	9
-	+	4	15
-	+	9	28
-	+	9	21
-	+	9	26
-	+	9	16
-	+	9	20
-	+	9	7
-	+	7	0
-	+	8	3
-	+	9	7
-	+	9	0
-	+	8	17
-	+	7	0
-	+	6	23
-	+	4	4
-	+	9	0
-
-> ~/IdeaProjects/emailqueue/build/resources/main/template/strongViewSuggestion.vm
-	"	20	15
-	^	34	16
-	.	34	15
-	+	1	0
-	+	1	0
-	+	1	20
-	+	1	0
-	+	1	0
-	+	4	0
-	+	2	48
-	+	1	50
-	+	2	46
-	+	1	46
-	+	27	0
-	+	2	13
-	+	23	34
-	+	25	17
-	+	32	23
-	+	27	34
-	+	31	31
-	+	4	14
-	+	4	153
-	+	34	15
-
-> ~/play/memory.php
-	"	89	0
-	.	89	0
-	+	105	11
-	+	106	7
-	+	105	11
-	+	104	13
-	+	105	34
-	+	24	12
-	+	75	39
-	+	78	0
-	+	73	18
-	+	77	0
-	+	72	7
-	+	73	0
-	+	117	0
-	+	116	3
-	+	85	23
-	+	86	11
-	+	89	0
-	+	88	0
-	+	88	0
-	+	87	0
-	+	89	31
-	+	72	8
-	+	119	6
-	+	75	32
-	+	75	19
-	+	74	16
-	+	75	0
-	+	75	19
-	+	47	26
-	+	47	0
-	+	47	20
-	+	74	0
-	+	47	0
-	+	75	0
-	+	89	27
-	+	89	0
-
-> ~/play/expected/testFull.txt
-	"	1	0
-
-> ~/play/Makefile
-	"	20	0
-	^	21	0
-	.	21	0
-	+	17	55
-	+	18	57
-	+	15	4
-	+	8	4
-	+	9	21
-	+	9	19
-	+	9	0
-	+	8	15
-	+	9	0
-	+	10	5
-	+	11	0
-	+	12	0
-	+	2	16
-	+	17	38
-	+	3	10
-	+	17	57
+	+	18	20
+	+	18	16
+	+	18	18
+	+	18	20
+	+	7	5
+	+	18	0
+	+	7	25
+	+	18	16
+	+	18	7
+	+	18	0
+	+	18	16
 	+	18	17
-	+	17	64
-	+	15	4
-	+	14	0
-	+	16	20
-	+	17	64
-	+	16	17
-	+	15	4
-	+	17	67
-	+	18	48
-	+	1	10
-	+	2	11
-	+	3	7
-	+	13	7
-	+	15	1
-	+	16	17
-	+	15	0
-	+	13	6
-	+	17	36
-	+	2	0
-	+	13	14
-	+	17	38
-	+	18	2
-	+	17	51
-	+	18	34
-	+	11	17
-	+	2	18
-	+	15	8
-	+	25	8
-	+	23	0
-	+	25	0
-	+	23	62
-	+	13	5
-	+	14	7
-	+	3	4
-	+	5	31
-	+	13	16
-	+	14	0
-	+	25	11
-	+	5	12
-	+	6	33
-	+	25	0
-	+	20	0
-	+	21	0
-
-> ~/play/data/test6GetNone.txt
-	"	1	4
-	^	1	5
-	.	1	4
-	+	1	4
-
-> data/test6GetNone.txt
-	"	1	0
-	^	1	5
-	.	1	4
-	+	1	4
-
-> ~/play/expected/test1.txt
-	"	1	0
-
-> ~/play/expected/test1SetGet.txt
-	"	1	0
-
-> ~/play/expected/test2SetGetTwo.txt
-	"	1	0
-
-> ~/play/expected/test3SetGetTransaction.txt
-	"	1	0
-
-> ~/play/expected/test4SetGetTransactionNested.txt
-	"	1	0
-
-> ~/play/expected/test5SetGetTransactionRollback.txt
-	"	1	0
-
-> ~/play/expected/test6SetGetTransactionDoubleRollback.txt
-	"	7	0
-	.	6	6
-	+	5	0
+	+	18	17
+	+	9	0
+	+	16	0
+	+	9	4
 	+	8	0
+	+	18	22
+	+	18	0
+	+	30	0
+	+	9	5
+	+	7	29
+	+	9	16
+	+	9	0
+	+	18	0
+	+	9	0
+	+	9	0
+	+	10	34
+	+	16	0
+	+	18	0
+	+	9	0
+	+	16	0
+	+	10	23
+	+	10	24
+	+	18	0
 	+	10	0
-	+	6	6
-
-> ~/play/expected/test6SetGetTransactionRollback.txt
-	"	1	0
-
-> ~/play/data/test5SetGetTransactionNested.txt
-	"	1	0
-
-> ~/play/data/test5SetGetTransactionRollback.txt
-	"	5	7
-	^	5	8
-	.	5	7
-	+	6	0
-	+	5	7
-
-> ~/play/data/test4SetGetTransactionNested.txt
-	"	7	4
-	^	7	5
-	.	7	4
-	+	7	4
-
-> ~/play/data/test4SetGetTransaction.txt
-	"	1	0
-
-> ~/play/data/test3SetGetTransaction.txt
-	"	7	2
-	^	7	3
-	.	7	2
-	+	7	2
-
-> ~/play/data/test2SetGetTwo.txt
-	"	6	0
-	^	6	3
-	.	7	0
-	+	7	0
-	+	1	3
-	+	6	2
-	+	7	0
-
-> ~/play/data/test3.txt
-	"	1	0
-
-> ~/play/data/test2.txt
-	"	3	0
-	.	3	0
-	+	1	0
-	+	2	0
-	+	3	0
-
-> ~/play/memory_test.txt
-	"	22	2
-	^	22	3
-	.	22	2
-	+	3	5
-	+	23	0
-	+	21	5
-	+	22	2
-
-> ~/Library/Application Support/Adium 2.0/Users/Default/libpurple/accounts.xml
-	"	130	0
-
-> ~/Library/Application
-	"	1	0
-
-> ~/IdeaProjects/emailqueue/.git/COMMIT_EDITMSG
-	"	1	39
-	^	1	40
-	.	1	39
-	+	1	39
-
-> ~/play/x/.git/COMMIT_EDITMSG
-	"	1	0
-	.	4	0
-	+	1	0
-	+	1	0
-	+	4	0
-	+	4	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	1	0
-	+	4	0
-
-> ~/IdeaProjects/emailqueue/scripts/suggestion_post.sh
-	"	10	75
-	^	10	101
-	.	10	100
-	+	10	100
-
-> ~/IdeaProjects/emailqueue/build/resources/main/template/strongViewUserNew.vm
-	"	1	0
-	^	14	29
-	.	18	48
-	+	7	0
-	+	6	10
-	+	6	0
-	+	5	32
-	+	10	47
+	+	16	0
 	+	10	0
-	+	1	0
-	+	5	25
-	+	1	37
-	+	2	25
-	+	5	22
-	+	2	26
-	+	10	29
-	+	14	29
-	+	1	39
-	+	1	3
-	+	1	29
-	+	1	12
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	5	26
-	+	2	31
-	+	1	43
-	+	10	42
-	+	1	0
-	+	1	13
-	+	1	6
-	+	1	19
-	+	1	30
-	+	1	49
-	+	1	31
-	+	1	20
-	+	1	30
-	+	1	25
-	+	1	50
-	+	1	0
-	+	10	28
-	+	14	45
-	+	18	48
-
-> ~/Library/Preferences/IdeaIC13/filetypes/VelocityTemplateLanguage.xml
-	"	1	0
-	^	32	11
-	.	32	0
-	+	32	0
-
-> /private/tmp/new
-	"	26	16
-	.	1	0
-	+	3	1357
-	+	1	0
-	+	2	0
-	+	3	0
-	+	6	0
-	+	5	121
-	+	7	0
-	+	6	228
-	+	10	0
-	+	9	23
-	+	17	0
-	+	16	7
-	+	21	0
-	+	20	8
-	+	22	0
-	+	21	10
+	+	16	18
+	+	30	0
+	+	18	6
+	+	10	24
+	+	9	0
+	+	16	9
+	+	15	0
+	+	14	10
+	+	30	29
+	+	32	79
+	+	34	139
+	+	19	34
+	+	21	38
 	+	25	0
-	+	24	19
-	+	26	0
-	+	25	43
-	+	2	0
-	+	1	0
+	+	21	15
+	+	20	40
+	+	21	7
+	+	24	0
+	+	25	0
+	+	23	20
+	+	24	0
+	+	23	71
+	+	25	0
+	+	30	5
+	+	27	26
+	+	18	0
+	+	17	25
+	+	30	0
+	+	28	17
+	+	29	8
+	+	32	56
+	+	33	72
+	+	32	79
+	+	34	143
+	+	33	0
+	+	34	141
+	+	31	5
+	+	33	77
+	+	34	0
+	+	33	37
+	+	31	51
+	+	33	5
+	+	33	95
+	+	31	0
+	+	33	0
+	+	31	0
+	+	29	5
+	+	34	48
 
-> ~/IdeaProjects/emailqueue/out/production/emailqueue/template/strongViewUserNew.vm
-	"	4	13
-	^	4	14
-	.	4	13
-	+	4	13
-
-> ~/IdeaProjects/emailqueue/src/main/resources/template/strongViewUserNew.vm
-	"	4	10
-	^	4	11
-	.	4	10
-	+	4	10
-
-> ~/IdeaProjects/emailqueue/logs/mailws.log
-	"	13770	0
-
-> /build/resources/main/template/strongViewUserNew.vm
+> ~/test/certs/sandbox8.pem
 	"	1	0
 
-> ~/git/operations/fabric/fabfile.py
-	"	90	0
-	.	91	0
-	+	91	0
-	+	91	0
+> ~/test/certs/mail.stumblemail.net.pem
+	"	1	0
 
-> ~/git/operations/puppet/modules/gearman/files/conf/main.conf
-	"	620	17
+> /usr/share/vim/vim73/doc/syntax.txt
+	"	2489	25
 
-> ~/git/stumble/lib/gearman/jobhandlers/PublishFacebookAction.php
-	"	73	0
+> ~/git/stumble/lib/base/bootstrap.php
+	"	34	0
 
-> ~/git/stumble/lib/gearman/workers/publish_facebook_actions.php
-	"	5	0
+> ~/git/stumble/lib/common/helper.php
+	"	3	5
+	.	327	0
+	+	327	0
+
+> ~/git/stumble/lib/email/dispatcher/SendGridHttp.php
+	"	17	27
+
+> ~/git/stumble/lib/email/dispatcher/SendGridSmtp.php
+	"	9	2
+
+> ~/git/stumble/lib/email/dispatcher/Http.php
+	"	1	0
+
+> ~/git/stumble/lib/common/App.php
+	"	1	0
+
+> ~/git/stumble/lixo
+	"	118	0
+
+> ~/git/stumble/ext/portal/www/mysql/include/smarty/templates/email/email_welcome.tpl.v5
+	"	41	9
+	^	28	30
+	.	28	24
+	+	77	0
+	+	28	24
+
+> ~/git/stumble/asset/common/common/template/email/display/html/link.tpl
+	"	4	84
+	^	4	85
+	.	4	84
+	+	4	84
+
+> ~/git/stumble/asset/common/common/template/email/link.tpl
+	"	1	0
+
+> ~/git/stumble/asset/common/common/template/email/wrap/html/blockquote.tpl
+	"	1	0
+
+> ~/git/stumble/asset/common/common/template/email/wrap/html/color.tpl
+	"	1	0
+
+> ~/git/stumble/asset/common/common/template/email/wrap/html/colored_block.tpl
+	"	1	0
+
+> ~/git/stumble/asset/common/common/template/email/wrap/html/content.tpl
+	"	1	0
+
+> ~/git/stumble/asset/common/common/template/email/wrap/html/emphasis.tpl
+	"	1	0
+
+> ~/git/stumble/asset/common/common/template/email/wrap/html/ground.tpl
+	"	1	0
+
+> ~/git/stumble/asset/common/common/template/email/wrap/html/headline.tpl
+	"	1	0
+
+> ~/git/stumble/asset/common/common/template/email/wrap/html/house.tpl
+	"	1	0
+
+> ~/git/stumble/asset/common/common/template/email/wrap/html/list.tpl
+	"	1	0
+
+> ~/git/stumble/asset/common/common/template/email/wrap/html/pd_campaign.tpl
+	"	1	0
+
+> ~/git/stumble/asset/common/common/template/email/wrap/html/remark.tpl
+	"	1	0
+
+> ~/git/stumble/asset/common/common/template/email/wrap/html/strong.tpl
+	"	1	0
+
+> ~/git/stumble/asset/common/common/template/plugins/compete.tpl
+	"	1	0
+
+> ~/git/stumble/script/mcarvalho/id2hbase.sh
+	"	1	0
+	^	70	27
+	.	1	0
+	+	73	0
+	+	72	0
+	+	74	27
+	+	75	0
+	+	78	3
+	+	79	0
+	+	77	7
+	+	80	31
+	+	82	7
+	+	83	3
+	+	80	4
+	+	81	27
+	+	82	20
+	+	84	0
+	+	28	27
+	+	36	1
+	+	74	20
+	+	45	0
+	+	82	15
+	+	75	61
+	+	76	31
+	+	76	119
+	+	11	22
+	+	10	8
+	+	7	29
+	+	10	0
+	+	15	0
+	+	14	0
+	+	15	0
+	+	7	31
+	+	75	55
+	+	76	119
+	+	76	26
+	+	83	0
+	+	82	22
+	+	10	35
+	+	14	0
+	+	14	12
+	+	14	0
+	+	14	26
+	+	10	30
+	+	10	0
+	+	10	31
+	+	7	28
+	+	10	0
+	+	14	0
+	+	7	28
+	+	8	8
+	+	8	0
+	+	9	4
+	+	14	0
+	+	10	0
+	+	8	0
+	+	72	27
+	+	73	31
+	+	73	119
+	+	75	33
+	+	46	28
+	+	51	0
+	+	46	0
+	+	50	0
+	+	48	0
+	+	46	0
+	+	7	1
+	+	10	1
+	+	72	34
+	+	75	41
+	+	73	67
+	+	76	73
+	+	86	11
+	+	86	0
+	+	86	0
+	+	87	0
+	+	86	20
+	+	86	0
+	+	86	20
+	+	86	33
+	+	86	20
+	+	86	10
+	+	86	11
+	+	86	0
+	+	86	31
+	+	86	0
+	+	86	0
+	+	86	41
+	+	86	0
+	+	86	0
+	+	86	0
+	+	86	5
+	+	86	0
+	+	86	22
+	+	86	0
+	+	86	0
+	+	86	22
+	+	86	0
+	+	53	0
+	+	54	3
+	+	86	13
+	+	70	26
+	+	1	0
+
+> ~/git/stumble/script/mcarvalho/create_hash.php
+	"	32	0
+	.	17	0
+	+	8	21
+	+	32	8
+	+	24	0
+	+	25	0
+	+	57	14
+	+	11	0
+	+	52	0
+	+	51	0
+	+	14	0
+	+	13	0
+	+	12	13
+	+	11	11
+	+	11	0
+	+	34	7
+	+	11	8
+	+	23	7
+	+	34	20
+	+	11	29
+	+	36	107
+	+	36	0
+	+	51	111
+	+	36	0
+	+	51	0
+	+	9	31
+	+	2	5
+	+	4	0
+	+	2	0
+	+	3	0
+	+	9	0
+	+	9	0
+	+	8	21
+	+	51	0
+	+	36	10
+	+	32	5
+	+	34	18
+	+	36	74
+	+	38	22
+	+	21	0
+	+	40	36
+	+	42	23
+	+	46	0
+	+	45	0
+	+	44	10
+	+	45	0
+	+	47	0
+	+	46	22
+	+	46	42
+	+	51	69
+	+	45	26
+	+	46	50
+	+	48	12
+	+	46	34
+	+	45	21
+	+	46	34
+	+	45	29
+	+	46	48
+	+	45	28
+	+	46	46
+	+	45	27
+	+	46	33
+	+	45	29
+	+	46	33
+	+	45	26
+	+	46	50
+	+	48	13
+	+	51	10
+	+	49	26
+	+	51	68
+	+	51	4
+	+	51	0
+	+	59	0
+	+	59	0
+	+	54	31
+	+	51	0
+	+	51	0
+	+	45	0
+	+	51	22
+	+	51	102
+	+	51	29
+	+	51	1
+	+	51	29
+	+	51	100
+	+	51	7
+	+	51	0
+	+	51	38
+	+	51	32
+	+	51	0
+	+	51	104
+	+	51	0
+	+	51	48
+	+	51	37
+	+	51	26
+	+	51	31
+	+	51	78
+	+	51	0
+	+	59	0
+	+	51	110
+	+	51	0
+	+	59	0
+	+	17	0
+
+> ~/git/stumble/lib/component/impl/display/SalutationHeader.php
+	"	27	0
+
+> ~/git/data-access-library/src/main/scala/com/stumbleupon/data/user/UserAccessor.scala
+	"	65	0
+
+> ~/IdeaProjects/emailqueue/scripts/check_mock.sh
+	"	4	68
+	^	4	69
+	.	4	68
+	+	1	16
+	+	2	65
+	+	3	0
+	+	2	3
+	+	9	3
+	+	5	8
+	+	7	7
+	+	9	0
+	+	5	8
+	+	2	12
+	+	4	41
+	+	2	5
+	+	4	68
+
+> ~/git/stumble/ext/portal/www/scripts/jeichorn/php_ext/stumbleupon/stumbleupon.c
+	"	267	0
+
+> ~/git/stumble/ext/portal/www/scripts/jeichorn/php_ext/stumbleupon/php_stumbleupon.h
+	"	96	0
+
+> ~/git/stumble/ext/portal/www/scripts/jeichorn/php_ext/stumbleupon/README
+	"	70	0
+
+> ~/git/stumble/ext/portal/www/scripts/jeichorn/php_ext/stumbleupon/EXPERIMENTAL
+	"	2	0
+
+> ~/git/stumble/lib/component/impl/display/UserData.php
+	"	1	0
+
+> ~/git/stumble/1101733042681285796
+	"	1	0
+
+> ~/git/stumble/config/email/emails/notification_list_follow_new.yaml
+	"	1	0
+
+> ~/git/stumble/config/email/notification/notification.yaml
+	"	90	8
+	^	93	66
+	.	94	0
+	+	90	11
+	+	93	65
+	+	94	0
+
+> ~/git/stumble/config/email/emails/admin_request_password_reset.yaml
+	"	1	0
+
+> ~/git/stumble/config/app/www/sitemap.yaml
+	"	342	8
 
 > ~/.bash_profile
-	"	5	17
-	^	5	30
-	.	5	17
-	+	1	20
-	+	4	0
-	+	15	1
-	+	4	63
-	+	5	18
-	+	6	16
-	+	1	6
-	+	4	42
-	+	6	0
-	+	8	16
-	+	4	58
-	+	15	17
+	"	11	69
+	^	11	70
+	.	11	69
+	+	16	17
 	+	4	61
-	+	10	0
-	+	15	0
-	+	15	0
-	+	11	0
-	+	15	0
-	+	11	9
+	+	12	0
+	+	16	0
+	+	16	0
+	+	12	0
+	+	16	0
+	+	12	9
 	+	9	27
 	+	8	15
 	+	9	15
-	+	15	0
-	+	16	20
-	+	19	0
+	+	16	0
+	+	17	20
+	+	17	0
 	+	17	26
-	+	18	41
-	+	19	0
-	+	11	0
-	+	13	0
-	+	11	0
-	+	13	41
-	+	12	1
+	+	17	41
+	+	17	0
+	+	12	0
+	+	14	0
+	+	12	0
+	+	14	41
+	+	13	1
 	+	8	0
 	+	8	0
 	+	7	16
 	+	5	15
-	+	20	0
-	+	23	0
-	+	22	24
+	+	17	0
+	+	17	0
+	+	17	24
 	+	7	15
-	+	11	0
+	+	12	0
 	+	2	0
 	+	3	0
 	+	5	17
-
-> ~/IdeaProjects/emailqueue/scripts/usersql.sql
-	"	4	18
-	^	4	19
-	.	4	18
-	+	9	9
-	+	1	12
-	+	7	0
-	+	8	28
-	+	5	0
-	+	104	0
-	+	13	7
-	+	14	0
-	+	103	1
-	+	4	18
-
-> ~/IdeaProjects/emailqueue/build/resources/main/logback.xml
-	"	25	75
-	^	25	76
-	.	25	75
-	+	25	78
-	+	19	21
-	+	24	58
-	+	25	75
-
-> ~/bin/connect.mysql.dev.sh
-	"	16	55
-	^	16	6
-	.	16	55
-	+	14	4
-	+	16	4
-	+	14	61
-	+	16	5
-	+	14	0
-	+	16	0
-	+	14	54
-	+	16	55
-
-> /opt/apache-camel-2.12.2/components/camel-scala/src/test/scala/org/apache/camel/scala/dsl/FilterTest.scala
-	"	45	0
-
-> /opt/apache-camel-2.12.2/components/camel-scala/src/test/scala/org/apache/camel/scala/dsl/RollbackTest.scala
-	"	4	0
-
-> /opt/apache-camel-2.12.2/components/camel-scala/src/test/scala/org/apache/camel/scala/dsl/MulticastTest.scala
-	"	78	0
-
-> /opt/apache-camel-2.12.2/components/camel-scala/src/test/scala/org/apache/camel/scala/dsl/SOnCompletionOnCompleteOnlyTest.scala
-	"	24	36
-
-> /opt/apache-camel-2.12.2/components/camel-scala/src/test/scala/org/apache/camel/scala/dsl/BlockBeanTest.scala
-	"	49	0
-
-> /opt/apache-camel-2.12.2/components/camel-scala/src/test/scala/org/apache/camel/scala/dsl/AggregatorTest.scala
-	"	63	0
-
-> /opt/apache-camel-2.12.2/components/camel-scala/src/test/scala/org/apache/camel/scala/dsl/SPollEnricherTest.scala
-	"	44	0
-
-> /opt/apache-camel-2.12.2/components/camel-scala/src/test/scala/org/apache/camel/scala/dsl/XPathContentBasedRouterTest.scala
-	"	46	0
-
-> /opt/apache-camel-2.12.2/components/camel-scala/src/test/scala/org/apache/camel/scala/test/Animal.scala
-	"	28	0
-
-> /opt/apache-camel-2.12.2/components/camel-scala/src/test/scala/org/apache/camel/scala/test/CartoonService.scala
-	"	32	0
-
-> /opt/apache-camel-2.12.2/components/camel-scala/src/test/scala/org/apache/camel/scala/test/Envelope.scala
-	"	26	0
-
-> /opt/apache-camel-2.12.2/components/camel-scala/src/test/scala/org/apache/camel/scala/test/Person.scala
-	"	32	0
-
-> /opt/apache-camel-2.12.2/components/camel-scala/src/test/scala/org/apache/camel/scala/example/FilterRoute.scala
-	"	39	0
-
-> /opt/apache-camel-2.12.2/components/camel-scala/src/test/scala/org/apache/camel/scala/example/FilterRouteTest.scala
-	"	54	0
-
-> /opt/apache-camel-2.12.2/components/camel-scala/src/test/scala/org/apache/camel/scala/converter/ConverterSpec.scala
-	"	203	0
-
-> /opt/apache-camel-2.12.2/components/camel-scala/src/test/scala/org/apache/camel/scala/RichMockEndpoint.scala
-	"	1	0
-
-> /opt/apache-camel-2.12.2/components/camel-scala/src/test/scala/org/apache/camel/scala/CamelTestSupportTest.scala
-	"	41	0
-
-> /opt/apache-camel-2.12.2/camel-core/src/test/java/org/apache/camel/processor/ValidationWithMultipleHandlesTest.java
-	"	1	0
-
-> ~/bin/gitfullrebase
-	"	3	34
-	^	3	36
-	.	3	34
-	+	1	10
-	+	3	17
-	+	3	34
-
-> ~/git/operations/puppet/modules/apacheweb/files/dev/apache-dev-envs.sh
-	"	51	3
-
-> operations/puppet/modules/apacheweb/files/dev/apache-dev-envs.sh
-	"	1	0
-
-> ~/git/stumble/lib/gearman/jobhandlers/EmailAPISendTasks.php
-	"	68	7
-
-> ~/git/stumble/lib/gearman/jobhandlers/EmailDigest.php
-	"	53	0
-
-> ~/git/stumble/config/app/www/controller/submit_complete.yaml
-	"	3	0
-
-> ~/git/stumble/app/www/asset/web/common/template/v5_1/page/submit/complete.tpl
-	"	1	0
-
-> ~/git/stumble/config/app/www/flow/flow.yaml
-	"	15	9
-
-> ~/.vimrc
-	"	57	14
-	^	57	15
-	.	57	14
-	+	58	4
-	+	57	14
-
-> ~/IdeaProjects/emailqueue/.git/MERGE_MSG
-	"	1	0
-
-> ~/IdeaProjects/email_api/.git/COMMIT_EDITMSG
-	"	1	0
-
-> ~/IdeaProjects/email_api/src/main/scala/com/stumbleupon/camel/email/Main.scala
-	"	1	0
-
-> ~/IdeaProjects/emailqueue/build.gradle
-	"	31	0
-	.	224	0
-	+	13	0
-	+	82	0
-	+	115	0
-	+	119	0
-	+	138	0
-	+	152	0
-	+	173	0
-	+	224	0
-
-> ~/IdeaProjects/emailqueue/src/main/scala/com/stumbleupon/camel/email/config/package.scala
-	"	36	66
-	.	35	0
-	+	16	0
-	+	16	0
-	+	37	0
-	+	16	0
-	+	37	0
-	+	16	0
-	+	50	0
+	+	10	3
 	+	12	0
-	+	35	0
+	+	11	46
+	+	12	0
+	+	10	0
+	+	17	0
+	+	17	17
+	+	17	9
+	+	17	7
+	+	17	26
+	+	17	14
+	+	17	0
+	+	17	33
+	+	17	15
+	+	17	15
+	+	17	7
+	+	17	10
+	+	17	11
+	+	17	7
+	+	17	14
+	+	17	0
+	+	17	0
+	+	17	22
+	+	17	22
+	+	17	0
+	+	17	10
+	+	17	9
+	+	17	0
+	+	17	33
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	21
+	+	17	31
+	+	17	0
+	+	17	21
+	+	17	24
+	+	17	8
+	+	17	25
+	+	17	31
+	+	17	18
+	+	17	17
+	+	17	17
+	+	17	39
+	+	17	0
+	+	17	166
+	+	17	44
+	+	17	8
+	+	17	0
+	+	17	0
+	+	17	13
+	+	17	11
+	+	17	0
+	+	17	22
+	+	17	0
+	+	17	0
+	+	17	12
+	+	17	12
+	+	12	0
+	+	17	0
+	+	17	0
+	+	17	46
+	+	17	0
+	+	19	0
+	+	18	32
+	+	11	69
 
-> ~/IdeaProjects/emailqueue/src/main/scala/com/stumbleupon/camel/email/User.scala
-	"	15	16
-	.	8	0
-	+	6	0
-	+	8	0
-
-> /private/tmp/User.scala
-	"	15	16
+> ~/.bash_functions
+	"	1	0
 	.	1	0
 	+	1	0
 
-> ~/IdeaProjects/emailqueue/.git/rebase-apply/patch
-	"	47151	0
-	.	1	0
-	+	1	0
-	+	1	0
+> ~/git/stumble/lib/ext/Smarty.php
+	"	1	0
 
-> /private/tmp/package
-	"	35	0
-	.	1	0
-	+	1	0
+> ~/git/stumble/lib/ext/email/PHPMailer5.php
+	"	89	0
 
-> ~/IdeaProjects/emailqueue/.gitignore
-	"	20	0
-	.	21	0
-	+	13	0
-	+	21	0
-
-> ~/IdeaProjects/emailqueue/scripts/email_post.sh
-	"	11	0
-	.	11	0
-	+	1	0
+> ~/emailtypes.txt
+	"	1	0
+	^	30	6
+	.	27	4
+	+	1	16
+	+	14	0
+	+	14	0
+	+	31	0
 	+	11	0
-
-> ~/IdeaProjects/emailqueue/src/main/resources/application.conf
-	"	44	0
-	.	44	0
-	+	26	0
-	+	34	0
-	+	42	0
-	+	44	0
-
-> ~/IdeaProjects/emailqueue/src/main/resources/logback.xml
-	"	26	0
-	.	26	0
-	+	3	0
-	+	4	0
-	+	17	0
-	+	17	0
-	+	4	0
-	+	17	0
-	+	26	0
-
-> ~/IdeaProjects/emailqueue/src/main/scala/com/stumbleupon/camel/email/Main.scala
-	"	93	21
-	.	184	0
-	+	4	0
-	+	170	0
-	+	178	0
-	+	184	0
-
-> ~/Downloads/memory.php
-	"	88	4
-	^	88	5
-	.	88	0
-	+	51	0
-	+	50	10
-	+	55	11
-	+	54	8
-	+	52	37
-	+	24	42
-	+	21	31
-	+	23	0
-	+	22	58
-	+	19	0
-	+	18	37
-	+	6	58
-	+	21	16
-	+	74	19
-	+	90	20
-	+	90	20
-	+	89	31
-	+	83	43
-	+	84	23
-	+	82	0
-	+	83	30
-	+	62	0
-	+	56	0
-	+	95	24
-	+	55	31
-	+	56	0
-	+	55	0
-	+	95	0
-	+	93	28
-	+	95	29
-	+	93	21
-	+	55	53
-	+	56	36
-	+	64	55
-	+	94	8
-	+	104	0
-	+	95	7
-	+	99	0
-	+	98	39
-	+	97	23
-	+	98	41
-	+	8	27
-	+	56	0
-	+	56	56
-	+	8	27
-	+	27	25
-	+	95	17
-	+	96	25
-	+	56	0
-	+	49	0
-	+	48	23
-	+	27	35
-	+	33	23
-	+	34	51
-	+	29	31
-	+	30	26
-	+	46	0
-	+	39	13
-	+	43	0
-	+	40	0
-	+	38	32
-	+	39	0
-	+	40	33
-	+	44	0
-	+	42	21
-	+	38	27
-	+	104	0
-	+	97	0
-	+	97	17
-	+	106	12
-	+	97	0
-	+	100	0
-	+	69	0
-	+	68	26
-	+	67	0
 	+	5	0
-	+	53	31
-	+	45	20
-	+	101	21
-	+	45	14
-	+	106	0
-	+	79	15
-	+	57	16
-	+	61	0
-	+	59	17
-	+	61	0
-	+	59	61
-	+	61	0
-	+	58	27
-	+	59	20
-	+	59	20
-	+	59	20
-	+	58	69
-	+	59	30
-	+	60	83
-	+	61	0
-	+	57	58
-	+	90	8
-	+	86	17
-	+	88	0
-
-> ~/bin/locker.sh
-	"	105	50
-	^	105	51
-	.	105	50
-	+	59	49
-	+	59	0
-	+	59	0
-	+	59	0
-	+	59	0
-	+	59	0
-	+	34	0
-	+	34	0
-	+	110	0
-	+	51	8
-	+	57	12
-	+	34	0
-	+	57	8
-	+	73	7
-	+	74	0
-	+	51	0
-	+	61	0
-	+	61	0
-	+	60	3
-	+	61	0
-	+	62	0
-	+	61	0
-	+	52	0
-	+	53	115
-	+	53	79
-	+	53	83
-	+	55	0
-	+	53	39
-	+	55	0
-	+	54	29
-	+	34	0
-	+	54	14
-	+	53	46
-	+	54	34
-	+	47	29
-	+	47	0
-	+	47	0
-	+	47	0
-	+	47	0
-	+	47	0
-	+	47	4
-	+	47	21
-	+	47	4
-	+	47	4
-	+	47	0
-	+	47	22
-	+	47	22
-	+	53	32
-	+	54	53
-	+	47	0
-	+	105	0
-	+	104	22
-	+	104	24
-	+	104	5
-	+	104	0
-	+	104	0
-	+	104	0
-	+	105	0
-	+	104	4
-	+	104	0
-	+	104	37
-	+	104	0
-	+	104	0
-	+	89	0
-	+	88	14
-	+	95	5
-	+	88	44
-	+	2	0
-	+	19	0
-	+	12	0
-	+	18	0
+	+	1	0
+	+	1	0
 	+	17	0
-	+	5	51
-	+	6	64
-	+	8	23
-	+	18	43
-	+	22	0
-	+	28	0
-	+	23	0
-	+	10	0
-	+	9	107
-	+	10	0
-	+	92	30
-	+	89	25
-	+	92	28
-	+	92	0
-	+	92	59
-	+	89	0
-	+	91	0
-	+	91	0
-	+	91	0
-	+	94	0
-	+	91	11
-	+	90	28
-	+	54	70
-	+	53	28
-	+	54	81
-	+	71	18
-	+	92	55
-	+	105	50
+	+	22	12
+	+	21	14
+	+	30	5
+	+	29	104
+	+	27	4
 
-> ~/IdeaProjects/emailqueue/remote/start_server.sh
-	"	42	7
-	.	57	0
-	+	57	0
+> ~/bin/hadoop_tunnel
+	"	7	25
 
-> ~/IdeaProjects/emailqueue/remote/setup_env.sh
-	"	29	0
+> ~/bin/hbase-settings
+	"	9	20
+
+> /private/etc/auto_home
+	"	8	5
+
+> /usr/libexec/od_user_homes
+	"	8	0
+
+> /private/etc/auto_master
+	"	6	9
+	^	6	10
+	.	6	9
+	+	6	9
+
+> ~/bin/hbase
+	"	5	13
+	^	8	26
+	.	8	25
+	+	7	14
+	+	8	25
+
+> /usr/local/bin/hbase
+	"	1	0
+
+> ~/bin/hostname-from-hosts
+	"	2	42
+	^	2	43
+	.	2	0
+	+	2	0
+
+> /usr/local/Cellar/hbase/0.98.0/libexec/conf/hbase-env.sh
+	"	131	0
+
+> ~/git/stumble/script/pranay/testRate.php
+	"	3	0

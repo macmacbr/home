@@ -1,0 +1,4 @@
+#!/bin/bash
+
+
+git push review HEAD:refs/for/master

@@ -11,7 +11,7 @@ else
 fi
 
 if [ -z "$1" ];then
-mysql -h ${DBHOST} -P ${DBPORT} -u${DBUSER} -p${DBPASS}
+echo mysql -h ${DBHOST} -P ${DBPORT} -u${DBUSER} -p${DBPASS}
 else
 mysql -h ${DBHOST} -P ${DBPORT} -u${DBUSER} -p${DBPASS} "$@" 
 fi
