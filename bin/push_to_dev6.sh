@@ -12,8 +12,8 @@ tail -f ${LOGFILE} &
 
 a="-";
 function g() {
-    a=$(echo "$a" | sed -e 'y#-\\|/#\\|/-#'); 
-    echo -e -n "\r$a ";
+    a=$(echo -n "$a" | sed -e 'y#-\\|/#\\|/-#'); 
+    echo -e -n "  $a \r";
 }
 
 while sleep 1;do
