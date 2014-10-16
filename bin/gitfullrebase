@@ -1,3 +1,4 @@
 #!/bin/bash
 
+git branch --set-upstream-to=origin/master $(git rev-parse --abbrev-ref HEAD)
 git pull --rebase && git submodule update  --recursive

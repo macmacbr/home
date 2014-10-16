@@ -3,4 +3,3 @@ export SU_ENV=dev
 export SU_BASEDIR=git/stumble
 export HADOOP_ENV=dev
 export PATH=/usr/local/bin:$PATH:~/bin
-

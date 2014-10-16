@@ -17,7 +17,7 @@ fi
 
 GIVEMEANAME=${LOCKERCMDNAME:-$(basename $0)}
 if [ ${GIVEMEANAME} == "locker.sh" ];then
-    #running as locker.sh <command to run>
+    echo "#running as locker.sh <command to run>"
     GIVEMEANAME=${LOCKERCMDNAME:-$1}
 fi
 if [ -z "${GIVEMEANAME}" ];then
@@ -41,8 +41,8 @@ ENO_RECVSIG=3; ETXT[3]="ENO_RECVSIG"
 ### start locking attempt
 ###
  
-trap 'ECODE=$?; echo "[locker] Exit: ${ETXT[ECODE]}($ECODE)" >&2' 0
-echo -n "[locker] Locking: " >&2
+trap 'ECODE=$?; echo "[locker] Exit: ${ETXT[ECODE]}($ECODE)"' 0
+echo -n "[locker] Locking: " 
  
 if mkdir "${LOCKDIR}" &>/dev/null; then
  
@@ -52,14 +52,14 @@ if mkdir "${LOCKDIR}" &>/dev/null; then
         trap 'ECODE=$?;
               echo "[locker] Killing PID ${MYPID}" >&2
               [ -n "${MYPID}" ] && kill -SIGTERM "${MYPID}" 2>/dev/null >/dev/null;
-              echo "[locker] Removing lock. Exit: ${ETXT[ECODE]}($ECODE)" >&2
+              echo "[locker] Removing lock. Exit: ${ETXT[ECODE]}($ECODE)" 
               rm -rf "${LOCKDIR}"' 0
         ${RUNCMD} &
         MYPID=$!
         echo -n "NEW "
     else
         trap 'ECODE=$?;
-              echo "[locker] Removing lock. Exit: ${ETXT[ECODE]}($ECODE)" >&2
+              echo "[locker] Removing lock. Exit: ${ETXT[ECODE]}($ECODE)" 
               rm -rf "${LOCKDIR}"' 0
     fi
     echo -n "PID=[${MYPID}]  - ";
