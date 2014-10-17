@@ -1,5 +1,36 @@
 function fish_prompt --description 'Write out the prompt'
 	
+    # Check for tmux session
+    if set -q TMUX
+        set -l TMUX_STATUS_LOCATION "right"
+        #REPO
+        set -l GIT_REPO (basename (git rev-parse --show-toplevel) 2>/dev/null) 
+        if set -q GIT_REPO
+            #BRANCH
+            set -l GIT_BRANCH (git symbolic-ref HEAD | sed "s/^refs\/heads\///")
+            #DIRTY
+            set -l GIT_STATUS (git status --porcelain 2> /dev/null)
+            if set -q GIT_STATUS
+                set -l GIT_DIRTY "1" 
+            end
+
+            #SETTING
+            set -l TMUX_STATUS "$GIT_REPO:$GIT_BRANCH"
+          
+            if set -q GIT_DIRTY 
+                tmux set-window-option status-$TMUX_STATUS_LOCATION-attr bright > /dev/null
+            else
+                tmux set-window-option status-$TMUX_STATUS_LOCATION-attr none > /dev/null
+            end
+                
+            tmux set-window-option status-$TMUX_STATUS_LOCATION "$TMUX_STATUS" > /dev/null            
+
+         else
+                tmux set-window-option status-$TMUX_STATUS_LOCATION-attr none > /dev/null
+                tmux set-window-option status-$TMUX_STATUS_LOCATION "no git" > /dev/null
+         end
+    end
+
     set -l last_status $status
 
     set -l last_status_string ""
