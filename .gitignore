@@ -85,4 +85,6 @@ Calibre Library
 .java.policy
 .ssh*
 bindy
-*fish_history
+**/fish_history
+.config/fish/fish_history
+.config/fish/fish_history

@@ -1,4 +1,5 @@
 function fish_prompt --description 'Write out the prompt'
+    set -l last_status $status
 	
     # Check for tmux session
     if set -q TMUX
@@ -31,7 +32,6 @@ function fish_prompt --description 'Write out the prompt'
          end
     end
 
-    set -l last_status $status
 
     set -l last_status_string ""
     if [ $last_status -ne 0 ]
