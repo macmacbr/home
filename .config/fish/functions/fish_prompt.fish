@@ -40,6 +40,6 @@ function fish_prompt --description 'Write out the prompt'
     end
     #printf '%s@%s %s%s%s# ' $USER $__fish_prompt_hostname "$__fish_prompt_cwd" $pwd "$__fish_prompt_normal"
     #printf "LAST STATUS STRING: $last_status_string \n"
-    printf '%s:%s%s%s ]%s ' $__fish_prompt_hostname "$__fish_prompt_cwd" $pwd "$__fish_prompt_normal" $user_prompt
+    printf '%s%s:%s%s ]%s ' "$__fish_prompt_cwd" $__fish_prompt_hostname $pwd "$__fish_prompt_normal" $user_prompt
 
 end
