@@ -37,12 +37,12 @@ update_tmux() {
     if [ -n "$TMUX" ]; then     
         TMUX_STATUS_LOCATION="right"
         #REPO
-        GIT_REPO=$(basename `git rev-parse --show-toplevel` 2>/dev/null) 
+        GIT_REPO=$(2>/dev/null basename $(2>/dev/null git rev-parse --show-toplevel)) 
         if [ -n "${GIT_REPO}" ];then
             #BRANCH
-            GIT_BRANCH=$(git symbolic-ref HEAD | sed "s/^refs\/heads\///")
+            GIT_BRANCH=$(2>/dev/null git symbolic-ref HEAD | sed "s/^refs\/heads\///")
             #DIRTY
-            local status=$(git status --porcelain 2> /dev/null)
+            local status=$(2>/dev/null git status --porcelain 2> /dev/null)
             if [[ "$status" != "" ]]; then
                 GIT_DIRTY=true
             else
