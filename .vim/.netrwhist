@@ -1,8 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/mcarvalho/.conscript'
-let g:netrw_dirhist_2='/Users/mcarvalho/.composer'
-let g:netrw_dirhist_3='/Users/mcarvalho/.android'
-let g:netrw_dirhist_4='/Users/mcarvalho/.activator'
-let g:netrw_dirhist_5='/Users/mcarvalho/.Trash'
-let g:netrw_dirhist_6='/Users'
+let g:netrw_dirhist_cnt =0

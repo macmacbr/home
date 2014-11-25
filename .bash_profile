@@ -9,6 +9,7 @@ if [ -n "$PS1" ];then
 	alias cdp='pushd ~/git/portal'
     alias git_graphical='git log --graph --full-history --all --color         --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
     alias acknoExt='ack --ignore-directory=ext --ignore-directory=test'
+    alias grep='grep --color=auto'
 
 	export HISTIGNORE="cd:ls:ls -l:fg:bg"
 	export HISTCONTROL=ignorespace:ignoredups

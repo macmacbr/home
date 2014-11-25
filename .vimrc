@@ -14,6 +14,8 @@ if v:progname =~? "evim"
   finish
 endif
 
+set shell=/bin/sh 
+"
 " Use Vim settings, rather than Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
 set nocompatible
@@ -106,3 +108,59 @@ if !exists(":DiffOrig")
   command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
 		  \ | wincmd p | diffthis
 endif
+
+
+" Vundle plugin
+let iCanHazVundle=1
+let vundle_readme=expand('~/.vim/bundle/Vundle.vim/README.md')
+if !filereadable(vundle_readme)
+    echo "Installing Vundle.."
+    echo ""
+    silent !mkdir -p ~/.vim/bundle
+    silent !git clone https://github.com/gmarik/vundle ~/.vim/bundle/Vundle.vim
+    let iCanHazVundle=0
+endif
+
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+" The following are examples of different formats supported.
+" Keep Plugin commands between vundle#begin/end.
+" plugin on GitHub repo
+"MARCO"Plugin 'tpope/vim-fugitive'
+"MARCO"" plugin from http://vim-scripts.org/vim/scripts.html
+"MARCO"Plugin 'L9'
+"MARCO"" Git plugin not hosted on GitHub
+"MARCO"Plugin 'git://git.wincent.com/command-t.git'
+"MARCO"" git repos on your local machine (i.e. when working on your own plugin)
+"MARCO"Plugin 'file:///home/gmarik/path/to/plugin'
+"MARCO"" The sparkup vim script is in a subdirectory of this repo called vim.
+"MARCO"" Pass the path to set the runtimepath properly.
+"MARCO"Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+"MARCO"" Avoid a name conflict with L9
+"MARCO"Plugin 'user/L9', {'name': 'newL9'}
+
+Plugin 'tpope/vim-fugitive'
+Plugin 'sudo.vim'
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
