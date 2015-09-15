@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# respond to HADOOP_ENV variable
+
+. ${0%/*}/hbase-settings
+
+echo /usr/local/bin/hbase --config $HBASE_CFG/$HADOOP_ENV $*
+exec /usr/local/bin/hbase --config $HBASE_CFG/$HADOOP_ENV $*

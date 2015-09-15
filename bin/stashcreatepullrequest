@@ -1,0 +1,16 @@
+#!/bin/bash
+
+target=develop
+if [ "$1" = "master" ];then
+    target="master";
+    shift;
+fi
+
+
+stash pull-request ${target} @jbirchfield@stumbleupon.com @mernst@stumbleupon.com "$@"|tee /tmp/stash
+
+if [ $? -eq 0 ];then
+    cat /tmp/stash | pbcopy
+fi
+
+rm -f /tmp/stash

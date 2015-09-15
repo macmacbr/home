@@ -1,0 +1,5 @@
+#!/bin/bash
+
+THISBRANCH=$(git symbolic-ref HEAD | sed -e "s/^refs\/heads\///")
+git remote show origin |awk '/Remote branches/{s=1;next;}/Local branches.*git pull/{s=2;next;}/Local refs configured/{s=3;next;}s==0{next;} s==1 && /tracked/{a[$1]=$1;next;} s==2{if($1 in a)delete a[$1];next;}s==3 && /local out of date/{print "rebase "$1; system("git rebase origin/"$1" "$1);} END{for (i in a){print i"\n"; system("git checkout -b "i" origin/"i);}}'
+git checkout $THISBRANCH
