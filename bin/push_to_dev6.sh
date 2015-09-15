@@ -19,7 +19,7 @@ function g() {
 while sleep 1;do
     g;
 	ssh -o "BatchMode=yes" -o "ConnectTimeout=3" -o "ServerAliveInterval=3" -q sfodev6 "echo -n "\r" 2>&1" && \
-    for dir in stumble composer serviceconfig;do
+    for dir in non wanted directories;do
         rsync -apzuri --delete ${HOME}/git/${dir}/ -e 'ssh -o "ConnectTimeout=10"' 'sfodev6:'${REMOTEHOME}'/git/'${dir} --exclude '*.*~' --exclude '*.swp' 2>&1 \
         |xargs -L 1 -I% echo "$(date +%H:%M:%S)%" >${LOGFILE}
     done

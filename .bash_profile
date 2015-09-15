@@ -24,7 +24,6 @@ fi
 
 [ -f ~/.bash_functions ] && . ~/.bash_functions
 
-# added by Anaconda 1.9.2 installer
 export PATH="/usr/local/sbin:/Applications/anaconda/bin:$PATH"
 
 ##
